@@ -1,10 +1,14 @@
 import Link from 'next/link'
 import BarCard from '@/components/BarCard'
 import NationalitySelector from '@/components/NationalitySelector'
-import { getFeaturedBars } from '@/lib/bars'
+import { getFeaturedBars, bars } from '@/lib/bars'
+import { NATIONALITIES } from '@/lib/types'
 
 export default function HomePage() {
   const featured = getFeaturedBars()
+  const totalBars = bars.length
+  const totalNationalities = new Set(bars.flatMap((b) => b.teams)).size
+  const totalNeighbourhoods = new Set(bars.map((b) => b.neighbourhood)).size
 
   return (
     <>
@@ -42,9 +46,9 @@ export default function HomePage() {
 
           <div className="flex flex-col sm:flex-row gap-8 justify-center mt-16 text-center">
             {[
-              { num: '18', label: 'LA Bars Listed' },
-              { num: '9', label: 'Nationalities' },
-              { num: '12', label: 'Neighbourhoods' },
+              { num: String(totalBars), label: 'LA Bars Listed' },
+              { num: String(totalNationalities), label: 'Nationalities' },
+              { num: String(totalNeighbourhoods), label: 'Neighbourhoods' },
             ].map(({ num, label }) => (
               <div key={label} className="flex flex-col items-center">
                 <span className="text-3xl font-black text-white">{num}</span>
@@ -68,6 +72,8 @@ export default function HomePage() {
             { label: '🇫🇷 France', href: '/bars?team=France' },
             { label: '🇩🇪 Germany', href: '/bars?team=Germany' },
             { label: '🇵🇹 Portugal', href: '/bars?team=Portugal' },
+            { label: '🇨🇴 Colombia', href: '/bars?team=Colombia' },
+            { label: '🇯🇵 Japan', href: '/bars?team=Japan' },
           ].map(({ label, href }) => (
             <Link
               key={label}
@@ -105,6 +111,67 @@ export default function HomePage() {
           >
             Browse all bars &rarr;
           </Link>
+        </div>
+      </section>
+
+      {/* LA Matches at SoFi Stadium */}
+      <section className="border-t border-white/10" style={{ background: '#050505' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="text-center mb-12">
+            <p className="text-sm font-bold uppercase tracking-widest mb-2" style={{ color: '#00c853' }}>SoFi Stadium · Los Angeles</p>
+            <h2 className="text-3xl md:text-4xl font-black text-white">World Cup Matches in LA</h2>
+            <p className="text-white/40 text-sm mt-3 max-w-xl mx-auto">8 matches at SoFi Stadium. Find your bar before tickets sell out.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
+            {[
+              { date: 'Jun 12', match: 'USA vs Paraguay', round: 'Group Stage', flag1: '🇺🇸', flag2: '🇵🇾', hot: true, note: 'US Tournament Opener' },
+              { date: 'Jun 15', match: 'Iran vs New Zealand', round: 'Group Stage', flag1: '🇮🇷', flag2: '🇳🇿', hot: false, note: 'Group G' },
+              { date: 'Jun 18', match: 'Switzerland vs Bosnia', round: 'Group Stage', flag1: '🇨🇭', flag2: '🇧🇦', hot: false, note: 'Group Stage' },
+              { date: 'Jun 21', match: 'Belgium vs Iran', round: 'Group Stage', flag1: '🇧🇪', flag2: '🇮🇷', hot: false, note: 'Group Stage' },
+              { date: 'Jun 25', match: 'USA vs Turkey', round: 'Group Stage', flag1: '🇺🇸', flag2: '🇹🇷', hot: true, note: 'Second US Match in LA' },
+              { date: 'Jun 28', match: 'TBD Group Match', round: 'Group Stage', flag1: '⚽', flag2: '⚽', hot: false, note: 'Group Stage' },
+              { date: 'Jul 2', match: 'TBD Knockout Match', round: 'Round of 32', flag1: '⚽', flag2: '⚽', hot: false, note: 'Knockout Round' },
+              { date: 'Jul 10', match: 'TBD Semifinal', round: 'Semifinal', flag1: '⚽', flag2: '⚽', hot: true, note: 'Global Spotlight' },
+            ].map(({ date, match, round, flag1, flag2, hot, note }) => (
+              <div
+                key={date + match}
+                className="flex items-center gap-4 p-4 rounded-2xl border transition-all"
+                style={{
+                  background: hot ? 'rgba(0,200,83,0.05)' : '#0a0a0a',
+                  borderColor: hot ? 'rgba(0,200,83,0.3)' : 'rgba(255,255,255,0.08)',
+                }}
+              >
+                <div className="text-center min-w-[52px]">
+                  <span className="text-xs font-bold uppercase tracking-wider" style={{ color: hot ? '#00c853' : 'rgba(255,255,255,0.4)' }}>
+                    {date}
+                  </span>
+                </div>
+                <div className="flex items-center gap-2 text-xl">
+                  <span>{flag1}</span>
+                  <span className="text-white/30 text-sm">vs</span>
+                  <span>{flag2}</span>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-white font-semibold text-sm truncate">{match}</p>
+                  <p className="text-white/40 text-xs">{round} · {note}</p>
+                </div>
+                {hot && (
+                  <span className="text-xs font-bold rounded-full px-2 py-0.5 shrink-0" style={{ background: 'rgba(0,200,83,0.15)', color: '#00c853' }}>🔥 Big Day</span>
+                )}
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <Link
+              href="/bars"
+              className="inline-flex items-center gap-2 px-8 py-3 rounded-full font-bold text-sm transition-all duration-200"
+              style={{ background: '#00c853', color: '#000' }}
+            >
+              Find your matchday bar →
+            </Link>
+          </div>
         </div>
       </section>
 

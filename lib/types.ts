@@ -24,6 +24,8 @@ export type Team =
   | 'France'
   | 'Germany'
   | 'Portugal'
+  | 'Colombia'
+  | 'Japan'
 
 export const TEAM_FLAGS: Record<Team, string> = {
   Argentina: '🇦🇷',
@@ -35,6 +37,8 @@ export const TEAM_FLAGS: Record<Team, string> = {
   France: '🇫🇷',
   Germany: '🇩🇪',
   Portugal: '🇵🇹',
+  Colombia: '🇨🇴',
+  Japan: '🇯🇵',
 }
 
 export const NATIONALITIES: Team[] = [
@@ -47,6 +51,8 @@ export const NATIONALITIES: Team[] = [
   'France',
   'Germany',
   'Portugal',
+  'Colombia',
+  'Japan',
 ]
 
 export interface BarFeatures {
