@@ -11,6 +11,11 @@ export type Neighbourhood =
   | 'Mid-City'
   | 'Highland Park'
   | 'Valley'
+  | 'Little Tokyo'
+  | 'East LA'
+  | 'Culver City'
+  | 'Pasadena'
+  | 'Fairfax'
 
 export type Vibe = 'rowdy' | 'electric' | 'chill' | 'local'
 
@@ -24,6 +29,11 @@ export type Team =
   | 'France'
   | 'Germany'
   | 'Portugal'
+  | 'Ireland'
+  | 'Japan'
+  | 'Spain'
+  | 'Colombia'
+  | 'Netherlands'
 
 export const TEAM_FLAGS: Record<Team, string> = {
   Argentina: '🇦🇷',
@@ -35,6 +45,11 @@ export const TEAM_FLAGS: Record<Team, string> = {
   France: '🇫🇷',
   Germany: '🇩🇪',
   Portugal: '🇵🇹',
+  Ireland: '🇮🇪',
+  Japan: '🇯🇵',
+  Spain: '🇪🇸',
+  Colombia: '🇨🇴',
+  Netherlands: '🇳🇱',
 }
 
 export const NATIONALITIES: Team[] = [
@@ -47,6 +62,11 @@ export const NATIONALITIES: Team[] = [
   'France',
   'Germany',
   'Portugal',
+  'Ireland',
+  'Japan',
+  'Spain',
+  'Colombia',
+  'Netherlands',
 ]
 
 export interface BarFeatures {
