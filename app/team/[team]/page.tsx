@@ -81,6 +81,18 @@ const TEAM_COPY: Record<Team, { headline: string; subhead: string; about: string
     about: "Japan's Samurai Blue have become a World Cup institution, famous for their giant upsets. In LA, Far Bar in Little Tokyo and Normandie Club in Koreatown are the go-to spots for Japanese fans — and any lover of a classic shock result.",
     keywords: ['japan world cup bar los angeles', 'samurai blue bar los angeles 2026', 'where do japanese fans watch world cup la', 'japan football bar la'],
   },
+  Ireland: {
+    headline: "Where Irish Fans Watch the World Cup in LA",
+    subhead: "LA has more Irish pubs than you'd believe. Find the best spots for the Boys in Green — and every Ireland supporter in the city.",
+    about: "The Irish diaspora is one of the most pub-loyal football communities in Los Angeles. Even when Ireland aren't in the tournament, Irish pubs are where the city's football faithful gather — proper Guinness, English commentary, and an atmosphere that rivals anything back home. Joxer Daly's in Culver City and Sonny McLean's in Santa Monica are the anchors, but the whole network lights up on a big matchday.",
+    keywords: ['irish pub world cup los angeles', 'ireland fans bar los angeles 2026', 'where do irish fans watch football la', 'best irish pub los angeles world cup', 'boys in green bar la'],
+  },
+  Spain: {
+    headline: "Where Spanish Fans Watch the World Cup in LA",
+    subhead: "La Roja have serious backing in LA. Find bars with Spanish commentary, tapas, and genuine European football atmosphere.",
+    about: "Spain's defending world champions have a passionate following across Los Angeles, concentrated in Silver Lake, Los Feliz, and the Westside. With Spanish commentary and a community that takes tiki-taka seriously, these are the spots where La Roja fans turn matchday into a proper Spanish afternoon — vermouth, pintxos, and all.",
+    keywords: ['spain world cup bar los angeles', 'la roja bar los angeles 2026', 'where do spanish fans watch world cup la', 'spanish football bar los angeles', 'spain world cup 2026 watch party la'],
+  },
 }
 export async function generateStaticParams() {
   return NATIONALITIES.map((team) => ({
