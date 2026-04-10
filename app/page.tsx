@@ -1,10 +1,14 @@
 import Link from 'next/link'
 import BarCard from '@/components/BarCard'
 import NationalitySelector from '@/components/NationalitySelector'
-import { getFeaturedBars } from '@/lib/bars'
+import { getFeaturedBars, bars } from '@/lib/bars'
+import { NATIONALITIES } from '@/lib/types'
 
 export default function HomePage() {
   const featured = getFeaturedBars()
+  const totalBars = bars.length
+  const totalNationalities = new Set(bars.flatMap((b) => b.teams)).size
+  const totalNeighbourhoods = new Set(bars.map((b) => b.neighbourhood)).size
 
   return (
     <>
@@ -49,19 +53,17 @@ export default function HomePage() {
 
             <NationalitySelector />
 
-            {/* Stats row */}
-            <div className="flex gap-10 sm:gap-14 mt-14">
-              {[
-                { num: '30', label: 'Bars Listed' },
-                { num: '9', label: 'Nationalities' },
-                { num: '12', label: 'Neighbourhoods' },
-              ].map(({ num, label }) => (
-                <div key={label}>
-                  <span className="block text-3xl sm:text-4xl font-black text-white tracking-tight">{num}</span>
-                  <span className="text-white/35 text-xs sm:text-sm uppercase tracking-widest font-medium mt-1 block">{label}</span>
-                </div>
-              ))}
-            </div>
+          <div className="flex flex-col sm:flex-row gap-8 justify-center mt-16 text-center">
+            {[
+              { num: String(totalBars), label: 'LA Bars Listed' },
+              { num: String(totalNationalities), label: 'Nationalities' },
+              { num: String(totalNeighbourhoods), label: 'Neighbourhoods' },
+            ].map(({ num, label }) => (
+              <div key={label} className="flex flex-col items-center">
+                <span className="text-3xl font-black text-white">{num}</span>
+                <span className="text-white/40 text-sm mt-1">{label}</span>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -69,31 +71,59 @@ export default function HomePage() {
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0d0d0d] to-transparent" />
       </section>
 
-      {/* Nationality quick picks */}
-      <section className="bg-[#0d0d0d] relative z-10 -mt-8 pb-6">
-        <div className="max-w-6xl mx-auto px-5 sm:px-8 lg:px-12">
-          <p className="text-xs uppercase tracking-[0.2em] text-white/25 font-semibold mb-4">Popular teams</p>
-          <div className="flex flex-wrap gap-2">
-            {[
-              { label: '🇦🇷 Argentina', href: '/bars?team=Argentina' },
-              { label: '🇧🇷 Brazil', href: '/bars?team=Brazil' },
-              { label: '🇲🇽 Mexico', href: '/bars?team=Mexico' },
-              { label: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 England', href: '/bars?team=England' },
-              { label: '🇺🇸 USA', href: '/bars?team=USA' },
-              { label: '🇰🇷 South Korea', href: '/bars?team=South+Korea' },
-              { label: '🇫🇷 France', href: '/bars?team=France' },
-              { label: '🇩🇪 Germany', href: '/bars?team=Germany' },
-              { label: '🇵🇹 Portugal', href: '/bars?team=Portugal' },
-            ].map(({ label, href }) => (
-              <Link
-                key={label}
-                href={href}
-                className="text-sm font-medium bg-white/[0.04] hover:bg-[#D4AF37]/10 border border-white/[0.08] hover:border-[#D4AF37]/30 text-white/60 hover:text-[#D4AF37] px-4 py-2 rounded-full transition-all duration-300"
-              >
-                {label}
-              </Link>
-            ))}
-          </div>
+      {/* Quick nationality shortcuts */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 relative z-10">
+        <div className="flex flex-wrap gap-2 justify-center">
+          {[
+            { label: '🇦🇷 Argentina', href: '/team/argentina' },
+            { label: '🇧🇷 Brazil', href: '/team/brazil' },
+            { label: '🇲🇽 Mexico', href: '/team/mexico' },
+            { label: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 England', href: '/team/england' },
+            { label: '🇺🇸 USA', href: '/team/usa' },
+            { label: '🇰🇷 South Korea', href: '/team/south-korea' },
+            { label: '🇫🇷 France', href: '/team/france' },
+            { label: '🇩🇪 Germany', href: '/team/germany' },
+            { label: '🇵🇹 Portugal', href: '/team/portugal' },
+            { label: '🇨🇴 Colombia', href: '/team/colombia' },
+            { label: '🇯🇵 Japan', href: '/team/japan' },
+            { label: '🇮🇪 Ireland', href: '/team/ireland' },
+            { label: '🇪🇸 Spain', href: '/team/spain' },
+          ].map(({ label, href }) => (
+            <Link
+              key={label}
+              href={href}
+              className="text-sm font-medium bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white/70 hover:text-white px-4 py-2 rounded-full transition-all duration-200"
+            >
+              {label}
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* Browse by Neighbourhood */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="text-center mb-4">
+          <p className="text-xs font-bold uppercase tracking-widest text-white/40 mb-3">Browse by Neighbourhood</p>
+        </div>
+        <div className="flex flex-wrap gap-2 justify-center">
+          {[
+            { label: '📍 Hollywood', href: '/neighbourhood/hollywood' },
+            { label: '📍 Koreatown', href: '/neighbourhood/koreatown' },
+            { label: '📍 Santa Monica', href: '/neighbourhood/santa-monica' },
+            { label: '📍 Downtown', href: '/neighbourhood/downtown' },
+            { label: '📍 East LA', href: '/neighbourhood/east-la' },
+            { label: '📍 Silver Lake', href: '/neighbourhood/silver-lake' },
+            { label: '📍 Venice', href: '/neighbourhood/venice' },
+            { label: '📍 Mid-City', href: '/neighbourhood/mid-city' },
+          ].map(({ label, href }) => (
+            <Link
+              key={label}
+              href={href}
+              className="text-sm font-medium bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white/70 hover:text-white px-4 py-2 rounded-full transition-all duration-200"
+            >
+              {label}
+            </Link>
+          ))}
         </div>
       </section>
 
@@ -127,6 +157,67 @@ export default function HomePage() {
               className="inline-flex items-center gap-2.5 bg-[#D4AF37] hover:bg-[#c9a432] text-[#0d0d0d] font-bold px-8 py-3.5 rounded-full transition-all duration-300 text-sm tracking-wide uppercase"
             >
               Browse All Bars <span className="text-base">&rarr;</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* LA Matches at SoFi Stadium */}
+      <section className="border-t border-white/10" style={{ background: '#050505' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="text-center mb-12">
+            <p className="text-sm font-bold uppercase tracking-widest mb-2" style={{ color: '#00c853' }}>SoFi Stadium · Los Angeles</p>
+            <h2 className="text-3xl md:text-4xl font-black text-white">World Cup Matches in LA</h2>
+            <p className="text-white/40 text-sm mt-3 max-w-xl mx-auto">8 matches at SoFi Stadium. Find your bar before tickets sell out.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto">
+            {[
+              { date: 'Jun 12', match: 'USA vs Paraguay', round: 'Group Stage', flag1: '🇺🇸', flag2: '🇵🇾', hot: true, note: 'US Tournament Opener' },
+              { date: 'Jun 15', match: 'Iran vs New Zealand', round: 'Group Stage', flag1: '🇮🇷', flag2: '🇳🇿', hot: false, note: 'Group G' },
+              { date: 'Jun 18', match: 'Switzerland vs Bosnia', round: 'Group Stage', flag1: '🇨🇭', flag2: '🇧🇦', hot: false, note: 'Group Stage' },
+              { date: 'Jun 21', match: 'Belgium vs Iran', round: 'Group Stage', flag1: '🇧🇪', flag2: '🇮🇷', hot: false, note: 'Group Stage' },
+              { date: 'Jun 25', match: 'USA vs Turkey', round: 'Group Stage', flag1: '🇺🇸', flag2: '🇹🇷', hot: true, note: 'Second US Match in LA' },
+              { date: 'Jun 28', match: 'TBD Group Match', round: 'Group Stage', flag1: '⚽', flag2: '⚽', hot: false, note: 'Group Stage' },
+              { date: 'Jul 2', match: 'TBD Knockout Match', round: 'Round of 32', flag1: '⚽', flag2: '⚽', hot: false, note: 'Knockout Round' },
+              { date: 'Jul 10', match: 'TBD Semifinal', round: 'Semifinal', flag1: '⚽', flag2: '⚽', hot: true, note: 'Global Spotlight' },
+            ].map(({ date, match, round, flag1, flag2, hot, note }) => (
+              <div
+                key={date + match}
+                className="flex items-center gap-4 p-4 rounded-2xl border transition-all"
+                style={{
+                  background: hot ? 'rgba(0,200,83,0.05)' : '#0a0a0a',
+                  borderColor: hot ? 'rgba(0,200,83,0.3)' : 'rgba(255,255,255,0.08)',
+                }}
+              >
+                <div className="text-center min-w-[52px]">
+                  <span className="text-xs font-bold uppercase tracking-wider" style={{ color: hot ? '#00c853' : 'rgba(255,255,255,0.4)' }}>
+                    {date}
+                  </span>
+                </div>
+                <div className="flex items-center gap-2 text-xl">
+                  <span>{flag1}</span>
+                  <span className="text-white/30 text-sm">vs</span>
+                  <span>{flag2}</span>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-white font-semibold text-sm truncate">{match}</p>
+                  <p className="text-white/40 text-xs">{round} · {note}</p>
+                </div>
+                {hot && (
+                  <span className="text-xs font-bold rounded-full px-2 py-0.5 shrink-0" style={{ background: 'rgba(0,200,83,0.15)', color: '#00c853' }}>🔥 Big Day</span>
+                )}
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <Link
+              href="/bars"
+              className="inline-flex items-center gap-2 px-8 py-3 rounded-full font-bold text-sm transition-all duration-200"
+              style={{ background: '#00c853', color: '#000' }}
+            >
+              Find your matchday bar →
             </Link>
           </div>
         </div>

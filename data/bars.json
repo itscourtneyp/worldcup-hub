@@ -5,34 +5,48 @@
     "name": "Ye Olde Kings Head",
     "address": "116 Santa Monica Blvd, Santa Monica, CA 90401",
     "neighbourhood": "Santa Monica",
-    "about": "The oldest British pub in LA since 1974. The definitive home for England supporters on the Westside — expect a packed house, pints of Guinness, and commentary in English for every Three Lions match.",
-    "teams": ["England", "USA"],
+    "about": "The oldest British pub in LA since 1974. The definitive home for England supporters on the Westside \u2014 expect a packed house, pints of Guinness, and commentary in English for every Three Lions match.",
+    "teams": [
+      "England",
+      "USA"
+    ],
     "vibe": "electric",
     "vibeRating": 4.7,
     "capacity": 150,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "English" },
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "English"
+    },
     "promoted": true,
     "phone": "(310) 451-1402",
     "website": "https://www.yeoldekingshead.com",
-    "hours": "Mon–Fri 11am–2am · Sat–Sun 9am–2am",
+    "hours": "Mon\u2013Fri 11am\u20132am \u00b7 Sat\u2013Sun 9am\u20132am",
     "screens": 18
   },
   {
     "id": "2",
     "slug": "escorpion",
-    "name": "Escorpión",
-    "address": "10717 Venice Blvd, Los Angeles, CA 90034",
+    "name": "Escorpi\u00f3n",
+    "address": "5753 Melrose Ave, Los Angeles, CA 90038",
     "neighbourhood": "Mid-City",
-    "about": "The undisputed home of Mexico and Latin American football in LA. Every El Tri match fills the bar with a sea of green jerseys, mariachi energy, and Spanish-language commentary at full blast.",
-    "teams": ["Mexico", "Argentina", "Brazil"],
-    "vibe": "rowdy",
-    "vibeRating": 4.9,
+    "about": "Upscale Mexican bar with a huge following among Argentine and Brazilian expats as well. Aguas frescas-cocktails, mezcal flights, and the loudest crowds in Mid-City for any CONMEBOL clash.",
+    "teams": [
+      "Mexico",
+      "Argentina",
+      "Brazil"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.5,
     "capacity": 200,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "Spanish" },
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish"
+    },
     "promoted": true,
-    "phone": "(310) 559-8080",
-    "hours": "Daily 11am–2am",
-    "screens": 22
+    "phone": "(323) 469-5529",
+    "website": "https://www.escorpionrestaurant.com",
+    "hours": "Mon\u2013Thu 11am\u201311pm \u00b7 Fri\u2013Sun 11am\u20132am",
+    "screens": 10
   },
   {
     "id": "3",
@@ -40,15 +54,23 @@
     "name": "El Compadre",
     "address": "7408 W Sunset Blvd, Los Angeles, CA 90046",
     "neighbourhood": "Hollywood",
-    "about": "A Hollywood landmark for Mexican football fans. Flaming cheese, fiery margaritas, and a match-day atmosphere that erupts with every El Tri goal. Commentary in Spanish on the main screens.",
-    "teams": ["Mexico", "USA", "Argentina"],
+    "about": "A Hollywood institution since 1975. Flaming margaritas, packed booths, and a loyal Mexican and Argentine fan base. Small screens but a massive atmosphere when El Tri or La Albiceleste play.",
+    "teams": [
+      "Mexico",
+      "USA",
+      "Argentina"
+    ],
     "vibe": "rowdy",
-    "vibeRating": 4.5,
-    "capacity": 120,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "Spanish" },
+    "vibeRating": 4.2,
+    "capacity": 180,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish/English"
+    },
     "promoted": false,
     "phone": "(323) 874-7924",
-    "hours": "Daily 11am–2am",
+    "website": "https://elcompadrerestaurant.com",
+    "hours": "Sun\u2013Thu 11am\u201312am \u00b7 Fri\u2013Sat 11am\u20132am",
     "screens": 8
   },
   {
@@ -57,49 +79,70 @@
     "name": "Red Lion Tavern",
     "address": "2366 Glendale Blvd, Los Angeles, CA 90039",
     "neighbourhood": "Silver Lake",
-    "about": "Silver Lake's beloved German beer hall since 1959. The biergarten transforms into a Bavarian street party when Germany plays. Authentic German beer, bratwurst, and commentary in German on the garden screens.",
-    "teams": ["Germany", "USA"],
-    "vibe": "electric",
-    "vibeRating": 4.8,
-    "capacity": 180,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "German" },
+    "about": "LA's best German beer hall, Silver Lake-style. Die Mannschaft supporters are loyal here \u2014 expect authentic brats, Oktoberfest steins, and commentary that switches to German for the big matches.",
+    "teams": [
+      "Germany",
+      "USA"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.4,
+    "capacity": 200,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "English/German"
+    },
     "promoted": true,
     "phone": "(323) 662-5337",
-    "hours": "Daily 11am–2am",
-    "screens": 16
+    "website": "https://www.redliontavern.net",
+    "hours": "Mon\u2013Fri 4pm\u20132am \u00b7 Sat\u2013Sun 12pm\u20132am",
+    "screens": 12
   },
   {
     "id": "5",
     "slug": "the-stadium-club",
     "name": "The Stadium Club",
-    "address": "3700 Wilshire Blvd, Los Angeles, CA 90010",
+    "address": "3519 W 6th St, Los Angeles, CA 90020",
     "neighbourhood": "Koreatown",
-    "about": "Koreatown's premier sports bar. Every South Korea match turns this place into a sea of Red Devils. Korean fried chicken, soju cocktails, and Korean-language commentary that makes you feel like you're in Seoul.",
-    "teams": ["South Korea", "USA"],
+    "about": "The beating heart of Koreatown sports culture. When the Korean national team plays, this place transforms \u2014 Korean commentary blasting, soju flowing, and a crowd that makes SoFi Stadium feel quiet.",
+    "teams": [
+      "South Korea",
+      "USA"
+    ],
     "vibe": "electric",
-    "vibeRating": 4.8,
+    "vibeRating": 4.6,
     "capacity": 250,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "Korean" },
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Korean"
+    },
     "promoted": true,
-    "phone": "(213) 387-7700",
-    "hours": "Daily 11am–3am",
-    "screens": 24
+    "phone": "(213) 382-5678",
+    "website": "",
+    "hours": "Daily 11am\u20133am",
+    "screens": 20
   },
   {
     "id": "6",
     "slug": "cafe-brasil",
-    "name": "Café Brasil",
-    "address": "11736 W Washington Blvd, Los Angeles, CA 90066",
+    "name": "Caf\u00e9 Brasil",
+    "address": "11736 W Pico Blvd, Los Angeles, CA 90064",
     "neighbourhood": "Mid-City",
-    "about": "West LA's Brazilian community hub and the place to be when the Seleção plays. Açaí bowls, caipirinhas, and Portuguese-language commentary with a crowd that dances samba after every goal.",
-    "teams": ["Brazil", "Portugal"],
+    "about": "A West LA institution for the Brazilian diaspora. A\u00e7a\u00ed bowls by day, green-and-gold war paint by night. One of the few spots where you'll hear commentary in Portuguese and find every Brasil match on.",
+    "teams": [
+      "Brazil",
+      "Portugal"
+    ],
     "vibe": "electric",
-    "vibeRating": 4.6,
-    "capacity": 80,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "Portuguese" },
+    "vibeRating": 4.3,
+    "capacity": 100,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Portuguese"
+    },
     "promoted": false,
-    "phone": "(310) 391-1216",
-    "hours": "Daily 8am–10pm (extended hours for World Cup)",
+    "phone": "(310) 444-0504",
+    "website": "",
+    "hours": "Daily 9am\u201311pm",
     "screens": 6
   },
   {
@@ -108,16 +151,24 @@
     "name": "Highland Park Bowl",
     "address": "5621 N Figueroa St, Los Angeles, CA 90042",
     "neighbourhood": "Highland Park",
-    "about": "A restored 1920s bowling alley that doubles as a football bar. The Portuguese and Brazilian communities have claimed it for World Cup. Craft beer, artisanal pizza, and big screens above the lanes.",
-    "teams": ["Brazil", "Portugal", "Argentina"],
+    "about": "A beautifully restored 1920s bowling alley that doubles as one of NE LA's best bar experiences. Mixed crowd of Brazilian, Portuguese, and Argentine fans share lanes and big screens above the pins.",
+    "teams": [
+      "Brazil",
+      "Portugal",
+      "Argentina"
+    ],
     "vibe": "chill",
-    "vibeRating": 4.3,
-    "capacity": 160,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "English" },
+    "vibeRating": 4.1,
+    "capacity": 300,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
     "promoted": false,
     "phone": "(323) 257-2695",
-    "hours": "Daily 4pm–2am · Sat–Sun 11am–2am",
-    "screens": 8
+    "website": "https://www.highlandparkbowl.com",
+    "hours": "Tue\u2013Fri 5pm\u20131am \u00b7 Sat\u2013Sun 12pm\u20131am",
+    "screens": 10
   },
   {
     "id": "8",
@@ -125,16 +176,24 @@
     "name": "Casey's Irish Bar",
     "address": "613 S Grand Ave, Los Angeles, CA 90017",
     "neighbourhood": "Downtown",
-    "about": "A Downtown LA institution since 1989. Giant projection screens, a full Guinness menu, and a lively Irish-American atmosphere. The French supporters group has adopted it as their DTLA base.",
-    "teams": ["France", "USA", "England"],
-    "vibe": "electric",
-    "vibeRating": 4.4,
+    "about": "Downtown's go-to Irish pub for over 30 years. Casey's pulls a big French and American crowd alongside the expat Irish regulars. Great location for catching matches before or after exploring DTLA.",
+    "teams": [
+      "France",
+      "USA",
+      "England"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.0,
     "capacity": 200,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "English" },
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
     "promoted": true,
     "phone": "(213) 629-2353",
-    "hours": "Mon–Fri 11am–2am · Sat–Sun 10am–2am",
-    "screens": 20
+    "website": "https://www.caseysirishbar.com",
+    "hours": "Mon\u2013Fri 11am\u20132am \u00b7 Sat\u2013Sun 10am\u20132am",
+    "screens": 14
   },
   {
     "id": "9",
@@ -142,16 +201,23 @@
     "name": "Cock & Bull",
     "address": "2947 Lincoln Blvd, Santa Monica, CA 90405",
     "neighbourhood": "Santa Monica",
-    "about": "A proper British pub that takes football seriously. Outdoor patio for overflow crowds, early openings for European kick-offs, and a split allegiance between England and the USA.",
-    "teams": ["England", "USA"],
-    "vibe": "rowdy",
-    "vibeRating": 4.5,
-    "capacity": 100,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "English" },
+    "about": "The scrappy, unpretentious counterpart to Kings Head on the Westside. Smaller, cheaper, and just as passionate about England. Corner booths, proper pints, and regulars who've been coming since Italia 90.",
+    "teams": [
+      "England",
+      "USA"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.2,
+    "capacity": 120,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
     "promoted": false,
-    "phone": "(310) 399-9696",
-    "hours": "Mon–Fri 11am–2am · Sat–Sun 10am–2am",
-    "screens": 12
+    "phone": "(310) 396-7729",
+    "website": "",
+    "hours": "Daily 11am\u20132am",
+    "screens": 8
   },
   {
     "id": "10",
@@ -159,16 +225,23 @@
     "name": "LALA's Argentine Grill",
     "address": "7229 Melrose Ave, Los Angeles, CA 90046",
     "neighbourhood": "Hollywood",
-    "about": "The heart of LA's Argentine community. When the Albiceleste plays, LALA's erupts with chants, flags, and asado smoke. Spanish commentary, empanadas, and Malbec flowing — it's Buenos Aires in Hollywood.",
-    "teams": ["Argentina", "USA"],
-    "vibe": "rowdy",
-    "vibeRating": 4.9,
-    "capacity": 90,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "Spanish" },
+    "about": "The undisputed #1 spot for Argentine fans in LA. When La Albiceleste plays, LALA's is the closest thing to Buenos Aires you'll find west of the Mississippi. Reserve early \u2014 it sells out for every Argentina match.",
+    "teams": [
+      "Argentina",
+      "USA"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.8,
+    "capacity": 150,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish/English"
+    },
     "promoted": true,
-    "phone": "(323) 934-6838",
-    "hours": "Daily 11am–11pm (extended for World Cup)",
-    "screens": 6
+    "phone": "(323) 933-2990",
+    "website": "https://www.lalasargentinegrill.com",
+    "hours": "Mon\u2013Thu 12pm\u201310pm \u00b7 Fri\u2013Sun 12pm\u201311pm",
+    "screens": 8
   },
   {
     "id": "11",
@@ -176,16 +249,25 @@
     "name": "Barney's Beanery",
     "address": "8447 Santa Monica Blvd, West Hollywood, CA 90069",
     "neighbourhood": "WeHo",
-    "about": "An LA institution since 1920 with 40+ screens. Pool tables get pushed aside for World Cup season and the full length of the bar hums with energy. A true melting-pot crowd from every nation.",
-    "teams": ["USA", "England", "Germany", "Mexico"],
+    "about": "A Los Angeles landmark since 1920. Over 200 beers on tap, 70+ screens throughout the space, and the broadest mix of nationalities of any bar on this list. If your team isn't at a cultural bar, come here \u2014 someone's always watching.",
+    "teams": [
+      "USA",
+      "England",
+      "Germany",
+      "Mexico"
+    ],
     "vibe": "rowdy",
-    "vibeRating": 4.2,
-    "capacity": 300,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "English" },
+    "vibeRating": 4.0,
+    "capacity": 500,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
     "promoted": false,
     "phone": "(323) 654-2287",
-    "hours": "Daily 11am–2am",
-    "screens": 40
+    "website": "https://www.barneysbeanery.com",
+    "hours": "Daily 10am\u20132am",
+    "screens": 72
   },
   {
     "id": "12",
@@ -193,16 +275,23 @@
     "name": "Le Petit Paris",
     "address": "418 S Spring St, Los Angeles, CA 90013",
     "neighbourhood": "Downtown",
-    "about": "Downtown's elegant French brasserie becomes the unofficial French consulate on Les Bleus match days. Croissants, croque-monsieurs, and French-language commentary with a stylish Parisian crowd.",
-    "teams": ["France", "Portugal"],
-    "vibe": "chill",
+    "about": "Authentic Parisian bistro in the heart of DTLA's Spring Street arts corridor. Les Bleus supporters dress up, the kitchen does match-day prix-fixe, and the zinc bar turns very loud when France score.",
+    "teams": [
+      "France",
+      "Portugal"
+    ],
+    "vibe": "electric",
     "vibeRating": 4.3,
-    "capacity": 100,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "French" },
+    "capacity": 150,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "French/English"
+    },
     "promoted": false,
-    "phone": "(213) 217-4445",
-    "hours": "Daily 8am–11pm (extended for World Cup)",
-    "screens": 4
+    "phone": "(213) 617-0606",
+    "website": "https://www.lepetitparisla.com",
+    "hours": "Mon\u2013Fri 11:30am\u201310pm \u00b7 Sat\u2013Sun 10am\u201310pm",
+    "screens": 6
   },
   {
     "id": "13",
@@ -210,33 +299,49 @@
     "name": "Big Wangs",
     "address": "1562 N Cahuenga Blvd, Hollywood, CA 90028",
     "neighbourhood": "Hollywood",
-    "about": "Hollywood's rowdiest sports bar with zero pretension and maximum atmosphere. Wings, cheap pitchers, and screens absolutely everywhere. World Cup here is a sensory overload in the best way.",
-    "teams": ["USA", "Mexico", "Brazil", "England"],
+    "about": "Hollywood's loud, unapologetic sports bar. 30+ screens, wings by the bucket, and a crowd that spans the entire spectrum \u2014 USA diehards, Mexican supporters, and Brazilian regulars all coexist under one roof.",
+    "teams": [
+      "USA",
+      "Mexico",
+      "Brazil",
+      "England"
+    ],
     "vibe": "rowdy",
-    "vibeRating": 4.1,
-    "capacity": 220,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "English" },
+    "vibeRating": 3.9,
+    "capacity": 350,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
     "promoted": false,
-    "phone": "(323) 469-9264",
-    "hours": "Daily 11am–2am",
+    "phone": "(323) 603-9595",
+    "website": "https://www.bigwangs.com",
+    "hours": "Daily 11am\u20132am",
     "screens": 35
   },
   {
     "id": "14",
     "slug": "the-greyhound",
     "name": "The Greyhound",
-    "address": "3034 Rowena Ave, Los Angeles, CA 90039",
+    "address": "2659 Griffith Park Blvd, Los Angeles, CA 90039",
     "neighbourhood": "Silver Lake",
-    "about": "Silver Lake's laid-back British gastropub with a beautiful back patio. Mixed crowd of expats and local converts, great craft beer, proper fish & chips. A calm haven for watching football outdoors.",
-    "teams": ["England", "Germany"],
-    "vibe": "chill",
-    "vibeRating": 4.4,
-    "capacity": 80,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "English" },
+    "about": "A proper Silver Lake local for England and Germany fans. Not flashy \u2014 wooden booths, real ales, and the kind of crowd that knows every player's name. Gets surprisingly electric for big England or Germany knockout matches.",
+    "teams": [
+      "England",
+      "Germany"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.1,
+    "capacity": 100,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
     "promoted": false,
-    "phone": "(323) 667-3777",
-    "hours": "Mon–Fri 4pm–2am · Sat–Sun 11am–2am",
-    "screens": 10
+    "phone": "",
+    "website": "",
+    "hours": "Mon\u2013Fri 4pm\u20132am \u00b7 Sat\u2013Sun 12pm\u20132am",
+    "screens": 8
   },
   {
     "id": "15",
@@ -244,16 +349,24 @@
     "name": "The Brig",
     "address": "1515 Abbot Kinney Blvd, Venice, CA 90291",
     "neighbourhood": "Venice",
-    "about": "Venice Beach's coolest sports bar on iconic Abbot Kinney. Huge outdoor area perfect for warm summer kickoffs, curated beer list, and a design-forward crowd that still goes wild when goals hit.",
-    "teams": ["USA", "Brazil", "Argentina"],
+    "about": "Venice's coolest dive bar, tucked on Abbot Kinney. A rotating cast of US, Brazilian, and Argentine regulars. Low-key for group stages but the energy builds fast in the knockouts.",
+    "teams": [
+      "USA",
+      "Brazil",
+      "Argentina"
+    ],
     "vibe": "chill",
-    "vibeRating": 4.3,
+    "vibeRating": 3.9,
     "capacity": 130,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "English" },
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
     "promoted": false,
     "phone": "(310) 399-7537",
-    "hours": "Daily 5pm–2am · Sat–Sun 12pm–2am",
-    "screens": 10
+    "website": "https://www.thebrigvenice.com",
+    "hours": "Daily 12pm\u20132am",
+    "screens": 8
   },
   {
     "id": "16",
@@ -261,260 +374,794 @@
     "name": "The Association",
     "address": "110 E 6th St, Los Angeles, CA 90014",
     "neighbourhood": "Downtown",
-    "about": "Sleek DTLA sports bar with three giant projection walls. The French and Spanish supporter communities have made it their base. Craft cocktails and a sophisticated late-night vibe.",
-    "teams": ["France", "Portugal", "USA"],
-    "vibe": "chill",
+    "about": "A craft cocktail bar that plays unexpectedly well for the French and Portuguese crowds. Exposed brick, high ceilings, smart TVs \u2014 it's stylish but the football passion is completely genuine.",
+    "teams": [
+      "France",
+      "Portugal",
+      "USA"
+    ],
+    "vibe": "electric",
     "vibeRating": 4.2,
-    "capacity": 140,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "French" },
+    "capacity": 180,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
     "promoted": false,
-    "phone": "(213) 627-6666",
-    "hours": "Mon–Fri 4pm–2am · Sat–Sun 12pm–2am",
-    "screens": 14
+    "phone": "(213) 624-1900",
+    "website": "",
+    "hours": "Mon\u2013Fri 3pm\u20132am \u00b7 Sat\u2013Sun 12pm\u20132am",
+    "screens": 10
   },
   {
     "id": "17",
     "slug": "mercado-buenos-aires",
     "name": "Mercado Buenos Aires",
-    "address": "15928 Ventura Blvd, Encino, CA 91436",
+    "address": "7420 Van Nuys Blvd, Van Nuys, CA 91405",
     "neighbourhood": "Valley",
-    "about": "The Valley's Argentine stronghold. Mercado Buenos Aires is part deli, part restaurant, and 100% football mad. During World Cup the outdoor patio fills with Argentine flags and the grill never stops.",
-    "teams": ["Argentina", "Brazil"],
+    "about": "Deep in the San Fernando Valley, Mercado Buenos Aires is the authentic Argentine community hub. No tourists, all locals \u2014 the atmosphere on Argentina match nights is something you'll remember for years.",
+    "teams": [
+      "Argentina",
+      "Brazil"
+    ],
     "vibe": "electric",
-    "vibeRating": 4.6,
-    "capacity": 70,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "Spanish" },
+    "vibeRating": 4.5,
+    "capacity": 200,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish"
+    },
     "promoted": false,
-    "phone": "(818) 788-9435",
-    "hours": "Daily 9am–9pm (extended for World Cup)",
-    "screens": 4
+    "phone": "(818) 988-4474",
+    "website": "",
+    "hours": "Daily 11am\u201311pm",
+    "screens": 10
   },
   {
     "id": "18",
-    "slug": "the-fox-and-hounds",
+    "slug": "fox-and-hounds",
     "name": "The Fox and Hounds",
-    "address": "2901 Main St, Santa Monica, CA 90405",
+    "address": "1099 Westwood Blvd, Los Angeles, CA 90024",
     "neighbourhood": "Santa Monica",
-    "about": "British pub on Main Street that's been hosting England watch parties for decades. Full English breakfast on early kick-off days, proper ales on tap, and a garden patio with an outdoor screen.",
-    "teams": ["England", "USA"],
+    "about": "A proper English pub near UCLA with a loyal Westside following. Multiple screens, a good selection of British ales, and a civilised atmosphere even in the rowdiest knockout stages.",
+    "teams": [
+      "England",
+      "USA"
+    ],
     "vibe": "local",
-    "vibeRating": 4.5,
-    "capacity": 90,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "English" },
+    "vibeRating": 4.1,
+    "capacity": 140,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
     "promoted": false,
-    "phone": "(310) 396-8118",
-    "hours": "Daily 10am–2am",
-    "screens": 8
+    "phone": "(310) 208-5100",
+    "website": "https://www.foxandhoundsla.com",
+    "hours": "Daily 11am\u20132am",
+    "screens": 12
   },
   {
     "id": "19",
-    "slug": "sonny-mcleans",
-    "name": "Sonny McLean's",
-    "address": "2615 Wilshire Blvd, Santa Monica, CA 90403",
-    "neighbourhood": "Santa Monica",
-    "about": "The undisputed Irish football headquarters on the Westside. Every Ireland and Premier League match packs this Santa Monica institution wall to wall with green jerseys, Guinness pints, and a roar that shakes the windows. If you're Irish in LA, this is home.",
-    "teams": ["Ireland", "England", "USA"],
+    "slug": "la-cita-bar",
+    "name": "La Cita Bar",
+    "address": "336 S Hill St, Los Angeles, CA 90013",
+    "neighbourhood": "Downtown",
+    "about": "One of DTLA's most beloved Mexican bars. Colombian fans have adopted it too \u2014 the Latin energy is infectious, the drinks are stiff, and the screens are always on for any match featuring a CONMEBOL side.",
+    "teams": [
+      "Mexico",
+      "Colombia",
+      "USA"
+    ],
     "vibe": "rowdy",
-    "vibeRating": 4.8,
-    "capacity": 120,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "English" },
-    "promoted": true,
-    "phone": "(310) 449-1811",
-    "website": "https://www.sonnymcleans.com",
-    "hours": "Daily 7am–2am",
-    "screens": 14
+    "vibeRating": 4.3,
+    "capacity": 180,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish/English"
+    },
+    "promoted": false,
+    "phone": "(213) 687-7111",
+    "website": "https://www.lacitabar.com",
+    "hours": "Mon\u2013Fri 3pm\u20132am \u00b7 Sat\u2013Sun 12pm\u20132am",
+    "screens": 10
   },
   {
     "id": "20",
-    "slug": "joxer-dalys",
-    "name": "Joxer Daly's",
-    "address": "11168 Washington Blvd, Culver City, CA 90232",
-    "neighbourhood": "Culver City",
-    "about": "Culver City's authentic Irish local — the kind of pub where the barman knows your order before you sit down. Ireland matches here have the intimate, craic-filled energy of a Galway pub at closing time. Early opens for European kick-offs guaranteed.",
-    "teams": ["Ireland", "England", "USA"],
-    "vibe": "electric",
-    "vibeRating": 4.6,
-    "capacity": 90,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "English" },
+    "slug": "the-short-stop",
+    "name": "The Short Stop",
+    "address": "1455 Sunset Blvd, Los Angeles, CA 90026",
+    "neighbourhood": "Echo Park",
+    "about": "Echo Park's iconic late-night bar. A melting pot crowd that skews young, loud, and passionate. Reliable for USA matches and increasingly popular with English and Colombian fans who've discovered its cheap drinks and big TVs.",
+    "teams": [
+      "USA",
+      "England",
+      "Colombia"
+    ],
+    "vibe": "rowdy",
+    "vibeRating": 4.1,
+    "capacity": 220,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
     "promoted": false,
-    "phone": "(310) 397-9463",
-    "website": "https://www.joxerdalys.com",
-    "hours": "Daily 11am–2am",
+    "phone": "(213) 482-4942",
+    "website": "",
+    "hours": "Daily 5pm\u20132am",
     "screens": 10
   },
   {
     "id": "21",
-    "slug": "tom-bergins",
-    "name": "Tom Bergin's",
-    "address": "840 S Fairfax Ave, Los Angeles, CA 90036",
-    "neighbourhood": "Fairfax",
-    "about": "One of the oldest Irish pubs in LA, operating since 1936. The ceiling is wallpapered with thousands of regulars' shamrock nameplate cards — a living history of Irish LA. World Cup turns this Fairfax legend into a proper football pub, Guinness flowing from open to close.",
-    "teams": ["Ireland", "England"],
-    "vibe": "electric",
-    "vibeRating": 4.7,
-    "capacity": 110,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "English" },
+    "slug": "tonys-darts-away",
+    "name": "Tony's Darts Away",
+    "address": "1710 Magnolia Blvd, Burbank, CA 91506",
+    "neighbourhood": "Valley",
+    "about": "A craft-beer and darts pub in Burbank that has become the Valley's top English pub experience. Heavy England and USA crowd. All-vegan food menu, 38 California craft beers on tap, and early morning coverage of European kickoffs.",
+    "teams": [
+      "England",
+      "USA"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.4,
+    "capacity": 160,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
     "promoted": false,
-    "phone": "(323) 936-7151",
-    "website": "https://www.tombergins.com",
-    "hours": "Mon–Fri 4pm–2am · Sat–Sun 11am–2am",
+    "phone": "(818) 253-1710",
+    "website": "https://www.tonysdartsaway.com",
+    "hours": "Mon\u2013Thu 4pm\u201312am \u00b7 Fri 3pm\u20132am \u00b7 Sat\u2013Sun 12pm\u20132am",
     "screens": 8
   },
   {
     "id": "22",
-    "slug": "lucky-baldwins",
-    "name": "Lucky Baldwin's",
-    "address": "17 S Raymond Ave, Pasadena, CA 91105",
-    "neighbourhood": "Pasadena",
-    "about": "Pasadena's beloved British pub and the East Side destination for England supporters. Lucky Baldwin's world-class beer list — over 100 taps and casks — draws a devoted crowd that fills the patio hours before kick-off for every Three Lions match.",
-    "teams": ["England", "USA"],
+    "slug": "bossa-nova-restaurant",
+    "name": "Bossa Nova",
+    "address": "685 N Robertson Blvd, West Hollywood, CA 90069",
+    "neighbourhood": "WeHo",
+    "about": "WeHo's beloved Brazilian restaurant turns into a samba-fuelled war room when A Sele\u00e7\u00e3o plays. Brazilian expats pack out the dining room, caipirinhas flow until last call, and the football is always on the big screen.",
+    "teams": [
+      "Brazil",
+      "Argentina",
+      "Portugal"
+    ],
     "vibe": "electric",
-    "vibeRating": 4.7,
-    "capacity": 100,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "English" },
-    "promoted": false,
-    "phone": "(626) 795-0652",
-    "website": "https://www.luckybaldwins.com",
-    "hours": "Mon–Fri 11am–2am · Sat–Sun 10am–2am",
-    "screens": 10
+    "vibeRating": 4.4,
+    "capacity": 180,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Portuguese/English"
+    },
+    "promoted": true,
+    "phone": "(310) 657-5070",
+    "website": "https://www.bossanovarestaurant.com",
+    "hours": "Mon\u2013Thu 11:30am\u201312am \u00b7 Fri\u2013Sat 11:30am\u20131am \u00b7 Sun 11:30am\u201311pm",
+    "screens": 8
   },
   {
     "id": "23",
-    "slug": "la-bodega-tapas-bar",
-    "name": "La Bodega Tapas Bar",
-    "address": "814 Broadway, Santa Monica, CA 90401",
-    "neighbourhood": "Santa Monica",
-    "about": "Spain comes to Santa Monica at La Bodega — sangria jugs, patatas bravas, and a passionate Spanish-American crowd that erupts for La Roja. The intimate tapas bar format makes every goal feel like a family celebration, with tables pushed together and flags draped from the rafters.",
-    "teams": ["Spain", "USA"],
-    "vibe": "electric",
-    "vibeRating": 4.5,
-    "capacity": 70,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "Spanish" },
+    "slug": "ye-rustic-inn",
+    "name": "Ye Rustic Inn",
+    "address": "1831 Hillhurst Ave, Los Angeles, CA 90027",
+    "neighbourhood": "Los Feliz",
+    "about": "Los Feliz's beloved dive bar since 1947. A fiercely loyal neighbourhood spot that comes alive for World Cup \u2014 USA and England fans claim the bar stools, Germany supporters take the back booths, and nobody leaves until extra time is over.",
+    "teams": [
+      "USA",
+      "England",
+      "Germany"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.2,
+    "capacity": 100,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
     "promoted": false,
-    "phone": "(310) 458-8855",
-    "hours": "Daily 12pm–11pm (extended for World Cup)",
-    "screens": 6
+    "phone": "(323) 663-5136",
+    "website": "",
+    "hours": "Daily 11am\u20132am",
+    "screens": 8
   },
   {
     "id": "24",
-    "slug": "bar-pintxo",
-    "name": "Bar Pintxo",
-    "address": "109 Santa Monica Blvd, Santa Monica, CA 90401",
-    "neighbourhood": "Santa Monica",
-    "about": "Santa Monica's authentic Basque pintxos bar morphs into a multi-national European football hub during the World Cup. Spanish, Portuguese, and French supporters converge over txakoli wine, jamón, and premium screens for every European heavyweight clash.",
-    "teams": ["Spain", "Portugal", "France"],
-    "vibe": "relaxed",
-    "vibeRating": 4.6,
-    "capacity": 65,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "Spanish" },
-    "promoted": false,
-    "phone": "(310) 458-2012",
-    "website": "https://www.barpintxo.com",
-    "hours": "Tue–Sun 5pm–midnight (extended for World Cup)",
-    "screens": 5
+    "slug": "far-bar",
+    "name": "Far Bar",
+    "address": "347 E 1st St, Los Angeles, CA 90012",
+    "neighbourhood": "Downtown",
+    "about": "Tucked inside the Far East Plaza in Little Tokyo, Far Bar is the go-to spot for Japanese football fans in LA. An izakaya-meets-sports-bar vibe \u2014 yakitori, Japanese whisky, and every Samurai Blue match on the screens.",
+    "teams": [
+      "Japan",
+      "USA"
+    ],
+    "vibe": "chill",
+    "vibeRating": 4.2,
+    "capacity": 100,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English/Japanese"
+    },
+    "promoted": true,
+    "phone": "(213) 617-9990",
+    "website": "https://www.farbarla.com",
+    "hours": "Mon\u2013Thu 5pm\u201312am \u00b7 Fri 5pm\u20132am \u00b7 Sat 4pm\u20132am \u00b7 Sun 4pm\u201312am",
+    "screens": 8
   },
   {
     "id": "25",
-    "slug": "osaka-ya",
-    "name": "Osaka-Ya",
-    "address": "362 E 1st St, Los Angeles, CA 90012",
-    "neighbourhood": "Little Tokyo",
-    "about": "Little Tokyo's warmest izakaya and the go-to destination for Japan's Samurai Blue supporters in LA. The intimate counter seating and Japanese whisky highballs make for an electric atmosphere — the entire bar gasps and cheers in unison every time Japan attacks.",
-    "teams": ["Japan", "USA"],
+    "slug": "la-descarga",
+    "name": "La Descarga",
+    "address": "1159 N Western Ave, Los Angeles, CA 90029",
+    "neighbourhood": "Hollywood",
+    "about": "Hollywood's rum-and-cigar speakeasy turned World Cup den. Colombian and Mexican fans flood La Descarga for the combination of Caribbean energy and big-screen football. Book ahead \u2014 it fills up fast even on weeknights.",
+    "teams": [
+      "Colombia",
+      "Mexico",
+      "USA"
+    ],
     "vibe": "electric",
-    "vibeRating": 4.7,
-    "capacity": 55,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "Japanese" },
-    "promoted": false,
-    "phone": "(213) 617-0552",
-    "hours": "Tue–Sun 6pm–midnight (extended for World Cup)",
-    "screens": 4
-  },
-  {
-    "id": "26",
-    "slug": "honda-ya",
-    "name": "Honda-Ya",
-    "address": "333 S Alameda St, Los Angeles, CA 90013",
-    "neighbourhood": "Little Tokyo",
-    "about": "The bustling heart of Little Tokyo's izakaya scene, where Japan and South Korea supporters pack in shoulder-to-shoulder for World Cup matches. Yakitori skewers, cold Sapporo, and a buzzing Japanese-Korean crowd that makes every match feel like a sold-out stadium.",
-    "teams": ["Japan", "South Korea", "USA"],
-    "vibe": "rowdy",
-    "vibeRating": 4.8,
-    "capacity": 80,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "Japanese" },
-    "promoted": false,
-    "phone": "(213) 473-9477",
-    "website": "https://www.honda-ya.com",
-    "hours": "Daily 6pm–midnight (extended for World Cup)",
+    "vibeRating": 4.5,
+    "capacity": 150,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish/English"
+    },
+    "promoted": true,
+    "phone": "(323) 466-1324",
+    "website": "https://www.ladescargala.com",
+    "hours": "Tue\u2013Sat 8pm\u20132am",
     "screens": 6
   },
   {
-    "id": "27",
-    "slug": "el-tepeyac-cafe",
-    "name": "El Tepeyac Cafe",
-    "address": "812 N Evergreen Ave, Los Angeles, CA 90033",
-    "neighbourhood": "East LA",
-    "about": "A true East LA legend since 1952 — home of the famous Hollenbeck burrito and the spiritual home of Mexican football on the Eastside. On El Tri match days the whole block comes alive, green flags fly from cars passing by, and the roar of a Mexico goal can be heard half a mile away.",
-    "teams": ["Mexico", "USA"],
-    "vibe": "rowdy",
-    "vibeRating": 4.8,
-    "capacity": 100,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "Spanish" },
+    "id": "26",
+    "slug": "el-cholo-la",
+    "name": "El Cholo",
+    "address": "1121 S Western Ave, Los Angeles, CA 90006",
+    "neighbourhood": "Mid-City",
+    "about": "LA's oldest Mexican restaurant, open since 1923. A multi-generational gathering place for Mexico supporters \u2014 grandfathers, parents, and kids all come here to watch El Tri. The margaritas are legendary and the atmosphere is as warm as it gets.",
+    "teams": [
+      "Mexico",
+      "USA",
+      "Colombia"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.1,
+    "capacity": 350,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish/English"
+    },
     "promoted": false,
-    "phone": "(323) 268-1960",
-    "hours": "Wed–Mon 6am–8pm (extended for World Cup)",
-    "screens": 5
+    "phone": "(323) 734-2773",
+    "website": "https://www.elcholo.com",
+    "hours": "Mon\u2013Thu 11am\u201310pm \u00b7 Fri\u2013Sat 11am\u201311pm \u00b7 Sun 10am\u201310pm",
+    "screens": 12
+  },
+  {
+    "id": "27",
+    "slug": "public-school-213",
+    "name": "Public School 213",
+    "address": "37 Washington Blvd, Marina Del Rey, CA 90292",
+    "neighbourhood": "Venice",
+    "about": "A sleek gastropub on the Marina with serious sports bar credentials. Beachside crowd mixes USA and German supporters. High ceilings, craft IPAs, and a great patio for outdoor viewing when the weather holds.",
+    "teams": [
+      "USA",
+      "Germany",
+      "England"
+    ],
+    "vibe": "chill",
+    "vibeRating": 4.0,
+    "capacity": 200,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(310) 577-1500",
+    "website": "https://eatdrinkps.com",
+    "hours": "Mon\u2013Fri 11am\u201311pm \u00b7 Sat\u2013Sun 10am\u201312am",
+    "screens": 16
   },
   {
     "id": "28",
-    "slug": "the-dutch",
-    "name": "The Dutch",
-    "address": "8000 Sunset Blvd, West Hollywood, CA 90046",
-    "neighbourhood": "WeHo",
-    "about": "West Hollywood's stylish gathering point for Dutch expats and European football fans. When Oranje plays, orange scarves fill the bar and the Dutch community's famous vocal support makes the Sunset Strip feel like Amsterdam Arena. German and American fans are always welcome too.",
-    "teams": ["Netherlands", "USA", "Germany"],
+    "slug": "lum-ka-naad",
+    "name": "Normandie Club",
+    "address": "3719 W 6th St, Los Angeles, CA 90020",
+    "neighbourhood": "Koreatown",
+    "about": "Koreatown's stylish cocktail lounge that fills with Korean-American supporters during Taeguk Warriors matches. Premium cocktails, DJ nights on weekends, and a slightly more sophisticated Koreatown football-watching experience than the dive bar alternatives.",
+    "teams": [
+      "South Korea",
+      "Japan",
+      "USA"
+    ],
     "vibe": "electric",
-    "vibeRating": 4.5,
-    "capacity": 95,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "English" },
+    "vibeRating": 4.4,
+    "capacity": 130,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Korean/English"
+    },
     "promoted": false,
-    "phone": "(323) 822-3700",
-    "hours": "Daily 5pm–2am · Sat–Sun 12pm–2am",
+    "phone": "(213) 999-5104",
+    "website": "",
+    "hours": "Wed\u2013Fri 6pm\u20132am \u00b7 Sat\u2013Sun 4pm\u20132am",
     "screens": 8
   },
   {
     "id": "29",
-    "slug": "primitivo-wine-bistro",
-    "name": "Primitivo Wine Bistro",
-    "address": "1025 Abbot Kinney Blvd, Venice, CA 90291",
+    "slug": "the-other-room",
+    "name": "The Other Room",
+    "address": "1201 Abbot Kinney Blvd, Venice, CA 90291",
     "neighbourhood": "Venice",
-    "about": "Venice's beloved wine bar transforms into a Southern European football sanctuary for the World Cup. Iberian charcuterie boards, natural wine, and an educated crowd of Spain, Portugal, and Argentina supporters who debate tactics as passionately as they cheer goals. The patio is the place to be on warm LA match nights.",
-    "teams": ["Spain", "Portugal", "Argentina"],
-    "vibe": "relaxed",
-    "vibeRating": 4.6,
-    "capacity": 75,
-    "features": { "outdoorScreen": true, "commentaryLanguage": "English" },
+    "about": "A low-lit, narrow craft beer bar on Venice's main drag. Beloved by the Brazilian and Argentine beach crowd who make Abbot Kinney home. Intimate and passionate \u2014 feel every goal in this cosy space.",
+    "teams": [
+      "Brazil",
+      "Argentina",
+      "Colombia"
+    ],
+    "vibe": "chill",
+    "vibeRating": 4.2,
+    "capacity": 80,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English/Spanish"
+    },
     "promoted": false,
-    "phone": "(310) 396-5353",
-    "website": "https://www.primitivowinebistro.com",
-    "hours": "Daily 5pm–midnight (extended for World Cup)",
-    "screens": 5
+    "phone": "(310) 396-6230",
+    "website": "",
+    "hours": "Daily 3pm\u20132am",
+    "screens": 4
   },
   {
     "id": "30",
-    "slug": "prank-bar",
-    "name": "Prank Bar",
-    "address": "1100 S Hope St, Los Angeles, CA 90015",
-    "neighbourhood": "Downtown",
-    "about": "DTLA's most diverse sports bar and the home of Colombian football in Los Angeles. Los Cafeteros supporters fill every corner in yellow, blue, and red, bringing the infectious energy of Bogotá to the heart of Downtown. Colombian snacks, aguardiente shots, and a crowd that never stops singing.",
-    "teams": ["Colombia", "Mexico", "USA"],
+    "slug": "el-rancho-grande",
+    "name": "El Rancho Grande",
+    "address": "8931 Sepulveda Blvd, North Hills, CA 91343",
+    "neighbourhood": "Valley",
+    "about": "The Valley's most passionate football bar for the Mexican and Colombian communities. When El Tri or Los Cafeteros play, every table is reserved days in advance. Mexican food, cold cervezas, and goal celebrations that shake the walls.",
+    "teams": [
+      "Mexico",
+      "Colombia",
+      "Argentina"
+    ],
     "vibe": "rowdy",
-    "vibeRating": 4.7,
-    "capacity": 130,
-    "features": { "outdoorScreen": false, "commentaryLanguage": "Spanish" },
+    "vibeRating": 4.3,
+    "capacity": 280,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "Spanish"
+    },
     "promoted": false,
-    "phone": "(213) 537-0037",
-    "hours": "Daily 4pm–2am · Sat–Sun 12pm–2am",
-    "screens": 12
+    "phone": "(818) 893-4470",
+    "website": "",
+    "hours": "Daily 11am\u201312am",
+    "screens": 15
+  },
+  {
+    "id": "31",
+    "slug": "lucky-baldwins",
+    "name": "Lucky Baldwin's",
+    "address": "17 S Raymond Ave, Pasadena, CA 91105",
+    "neighbourhood": "Pasadena",
+    "about": "Pasadena's legendary English pub, steps from the Rose Bowl. Lucky Baldwin's has been serving real ales and hosting football fans since 1996. When England or Germany play, every booth is claimed by dawn \u2014 and the outdoor patio erupts on every goal.",
+    "teams": [
+      "England",
+      "Germany",
+      "USA"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.5,
+    "capacity": 150,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(626) 795-0652",
+    "website": "https://www.luckybaldwins.com",
+    "hours": "Mon\u2013Fri 11:30am\u20132am \u00b7 Sat\u2013Sun 9am\u20132am",
+    "screens": 5
+  },
+  {
+    "id": "32",
+    "slug": "goal-sports-cafe",
+    "name": "Goal Sports Cafe",
+    "address": "3200 Los Feliz Blvd, Los Angeles, CA 90039",
+    "neighbourhood": "Atwater Village",
+    "about": "Atwater Village's dedicated supporter group hub. Goal Sports Cafe is where LAFC and USMNT fans gather \u2014 8 screens, a massive beer list, and an electric atmosphere that's become the northeast LA headquarters for American Outlaws matchday watch parties.",
+    "teams": [
+      "USA",
+      "Mexico",
+      "England"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.3,
+    "capacity": 120,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(323) 664-1114",
+    "website": "",
+    "hours": "Mon\u2013Fri 11am\u201312am \u00b7 Sat\u2013Sun 8am\u201312am",
+    "screens": 8
+  },
+  {
+    "id": "33",
+    "slug": "joxers-dalys",
+    "name": "Joxer Daly's",
+    "address": "11168 Washington Blvd, Culver City, CA 90232",
+    "neighbourhood": "Culver City",
+    "about": "A proper Irish pub in the heart of Culver City. Joxer Daly's is intimate, authentic, and fiercely loyal to English and Irish football. Four screens, proper pints of Guinness, and a crowd that treats every England match like a cup final.",
+    "teams": [
+      "England",
+      "Ireland",
+      "USA"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.2,
+    "capacity": 80,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(310) 838-2012",
+    "website": "",
+    "hours": "Daily 11am\u20132am",
+    "screens": 4
+  },
+  {
+    "id": "34",
+    "slug": "la-taqueria-east-la",
+    "name": "La Taqueria",
+    "address": "3009 E 1st St, Los Angeles, CA 90063",
+    "neighbourhood": "East LA",
+    "about": "The heartland of El Tri fandom in LA. La Taqueria in East LA transforms on Mexico match days \u2014 Spanish commentary at full blast, al pastor on the grill, and a rowdy crowd that spills out onto 1st Street. Colombian and Argentine fans are regulars too.",
+    "teams": [
+      "Mexico",
+      "Colombia",
+      "Argentina"
+    ],
+    "vibe": "rowdy",
+    "vibeRating": 4.4,
+    "capacity": 100,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish"
+    },
+    "promoted": false,
+    "phone": "(323) 264-3806",
+    "website": "",
+    "hours": "Daily 9am\u201311pm",
+    "screens": 3
+  },
+  {
+    "id": "35",
+    "slug": "busbys-east",
+    "name": "Busby's East",
+    "address": "3110 N Vermont Ave, Los Angeles, CA 90027",
+    "neighbourhood": "Los Feliz",
+    "about": "Named after Sir Matt Busby, this Los Feliz sports bar is purpose-built for matchday. Six big screens, 200 capacity, and a crowd that mixes USA, England, and German supporters in one of the most electric football atmospheres on the Eastside.",
+    "teams": [
+      "USA",
+      "England",
+      "Germany"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.3,
+    "capacity": 200,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(323) 664-7400",
+    "website": "https://www.busbyseast.com",
+    "hours": "Mon\u2013Fri 11am\u20132am \u00b7 Sat\u2013Sun 9am\u20132am",
+    "screens": 6
+  },
+  {
+    "id": "36",
+    "slug": "the-blue-room-burbank",
+    "name": "The Blue Room",
+    "address": "916 S San Fernando Blvd, Burbank, CA 91502",
+    "neighbourhood": "Burbank",
+    "about": "A no-frills Burbank dive bar with genuine character. The Blue Room is the kind of place where you pull up a stool, order a cheap beer, and watch the match in peace. USA and England fans have quietly made this their go-to on the east Valley side.",
+    "teams": [
+      "USA",
+      "England"
+    ],
+    "vibe": "chill",
+    "vibeRating": 3.9,
+    "capacity": 90,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(818) 849-2779",
+    "website": "",
+    "hours": "Daily 12pm\u20132am",
+    "screens": 4
+  },
+  {
+    "id": "37",
+    "slug": "sonny-mcleans",
+    "name": "Sonny McLean's",
+    "address": "2615 Wilshire Blvd, Santa Monica, CA 90403",
+    "neighbourhood": "Santa Monica",
+    "about": "Santa Monica's legendary Irish sports bar opens at 4am for early European kickoffs. Six screens, 150 capacity, and an electric mix of English, American, and Irish fans who've been coming here for decades. The Guinness is poured right and the atmosphere never disappoints.",
+    "teams": [
+      "England",
+      "USA",
+      "Ireland"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.4,
+    "capacity": 150,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English",
+      "openingTime": "04:00"
+    },
+    "promoted": false,
+    "phone": "(310) 828-9839",
+    "website": "https://www.sonnymcleans.com",
+    "hours": "Daily 4am\u20132am (opens early for European matches)",
+    "screens": 6
+  },
+  {
+    "id": "38",
+    "slug": "mercado-de-paloma",
+    "name": "Mercado de Paloma",
+    "address": "3655 S Grand Ave, Los Angeles, CA 90007",
+    "neighbourhood": "Downtown",
+    "about": "A vibrant food market near USC that sets up big screens for every major match. Mercado de Paloma is the rowdiest, most authentic Latin American football experience in DTLA \u2014 Mexican, Colombian, and Peruvian vendors blast commentary while the crowd roars between bites of ceviche and tamales.",
+    "teams": [
+      "Mexico",
+      "Colombia",
+      "Peru"
+    ],
+    "vibe": "rowdy",
+    "vibeRating": 4.5,
+    "capacity": 300,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish"
+    },
+    "promoted": false,
+    "phone": "(213) 748-1963",
+    "website": "https://www.mercadodepaloma.com",
+    "hours": "Mon\u2013Sat 10am\u20138pm \u00b7 Sun 10am\u20136pm",
+    "screens": 2
+  },
+  {
+    "id": "39",
+    "slug": "das-bootshaus",
+    "name": "Das Bootshaus",
+    "address": "227 Main St, El Segundo, CA 90245",
+    "neighbourhood": "El Segundo",
+    "about": "The only German bar on LA's Westside. Das Bootshaus brings proper Bavarian beer, brats, and Die Mannschaft passion to El Segundo. Small but mighty \u2014 when Germany plays, every seat is taken and the steins are raised before kickoff.",
+    "teams": [
+      "Germany",
+      "USA",
+      "Austria"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.1,
+    "capacity": 80,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English/German"
+    },
+    "promoted": false,
+    "phone": "(310) 426-9700",
+    "website": "",
+    "hours": "Tue\u2013Thu 4pm\u201311pm \u00b7 Fri\u2013Sat 12pm\u201312am \u00b7 Sun 12pm\u201310pm",
+    "screens": 3
+  },
+  {
+    "id": "40",
+    "slug": "the-galley-santa-monica",
+    "name": "The Galley",
+    "address": "2442 Main St, Santa Monica, CA 90405",
+    "neighbourhood": "Santa Monica",
+    "about": "The oldest bar in Santa Monica, pouring since 1934. The Galley is a chill, nautical-themed dive with three screens and a loyal crowd of England, USA, and Australian football fans. No frills, just good drinks and honest matchday vibes by the beach.",
+    "teams": [
+      "England",
+      "USA",
+      "Australia"
+    ],
+    "vibe": "chill",
+    "vibeRating": 4.0,
+    "capacity": 60,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(310) 452-1934",
+    "website": "",
+    "hours": "Daily 10am\u20132am",
+    "screens": 3
+  },
+  {
+    "id": "41",
+    "slug": "bar-avalon-koreatown",
+    "name": "Bar Avalon",
+    "address": "3563 W 6th St, Los Angeles, CA 90020",
+    "neighbourhood": "Koreatown",
+    "about": "Koreatown's electric football lounge. Bar Avalon draws South Korean and Japanese fans with soju cocktails, K-BBQ platters, and five screens dedicated to Asian football. When the Taeguk Warriors or Samurai Blue play, this place is standing room only.",
+    "teams": [
+      "South Korea",
+      "Japan",
+      "USA"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.3,
+    "capacity": 120,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Korean/English"
+    },
+    "promoted": false,
+    "phone": "(213) 388-9800",
+    "website": "",
+    "hours": "Daily 5pm\u20132am",
+    "screens": 5
+  },
+  {
+    "id": "42",
+    "slug": "el-conquistador-los-feliz",
+    "name": "El Conquistador",
+    "address": "3701 W Sunset Blvd, Los Angeles, CA 90026",
+    "neighbourhood": "Los Feliz",
+    "about": "A rowdy Los Feliz cantina where Mexican and Argentine fans take over on matchday. Three screens, cheap tequila shots, and an atmosphere that gets louder with every goal. El Conquistador is the neighbourhood's undisputed Latin football bar.",
+    "teams": [
+      "Mexico",
+      "USA",
+      "Argentina"
+    ],
+    "vibe": "rowdy",
+    "vibeRating": 4.1,
+    "capacity": 70,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish/English"
+    },
+    "promoted": false,
+    "phone": "(323) 666-5136",
+    "website": "",
+    "hours": "Daily 5pm\u20132am",
+    "screens": 3
+  },
+  {
+    "id": "43",
+    "slug": "the-pikey",
+    "name": "The Pikey",
+    "address": "7617 W Sunset Blvd, Los Angeles, CA 90046",
+    "neighbourhood": "Hollywood",
+    "about": "A beloved Hollywood institution with deep British and Irish roots, The Pikey draws an eclectic mix of expats and football obsessives. Expect a heaving crowd for Ireland matches \u2014 and any England-Ireland fixture is best experienced nowhere else in the city.",
+    "teams": [
+      "Ireland",
+      "England",
+      "USA"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.6,
+    "capacity": 130,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(323) 850-5400",
+    "website": "https://thepikeyla.com",
+    "hours": "Mon-Fri 5pm-2am \u00b7 Sat-Sun 11am-2am",
+    "screens": 10
+  },
+  {
+    "id": "44",
+    "slug": "britannia-pub",
+    "name": "Britannia Pub",
+    "address": "8730 Sunset Blvd, West Hollywood, CA 90069",
+    "neighbourhood": "WeHo",
+    "about": "A cornerstone of the British and Irish expat community in West Hollywood. Britannia is intimate, passionate, and packed to the rafters for any British Isles international. Irish and English fans share the space in good spirits \u2014 unless they are playing each other.",
+    "teams": [
+      "Ireland",
+      "England",
+      "USA"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.4,
+    "capacity": 90,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(310) 652-1862",
+    "website": "https://britanniapub.com",
+    "hours": "Daily 11am-2am",
+    "screens": 8
+  },
+  {
+    "id": "45",
+    "slug": "la-bodega-tapas-bar",
+    "name": "La Bodega Tapas Bar",
+    "address": "814 Wilshire Blvd, Santa Monica, CA 90401",
+    "neighbourhood": "Santa Monica",
+    "about": "Authentic Spanish tapas bar that transforms on World Cup matchdays when La Roja play. The Westside Spanish community rallies here \u2014 patatas bravas, jam\u00f3n ib\u00e9rico, and real passion for Spanish football from the tiki-taka era onwards.",
+    "teams": [
+      "Spain",
+      "USA"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.5,
+    "capacity": 110,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "Spanish"
+    },
+    "promoted": false,
+    "phone": "(310) 394-3504",
+    "website": null,
+    "hours": "Tue-Sun 12pm-11pm",
+    "screens": 8
+  },
+  {
+    "id": "46",
+    "slug": "bar-pintxo",
+    "name": "Bar Pintxo",
+    "address": "109 Santa Monica Blvd, Santa Monica, CA 90401",
+    "neighbourhood": "Santa Monica",
+    "about": "Joe Miller s acclaimed Spanish pintxos bar and one of the best spots in LA for a proper European football atmosphere. Small, passionate, and deeply Spanish \u2014 La Roja fans have claimed this as their Westside match-day home.",
+    "teams": [
+      "Spain",
+      "Portugal",
+      "France"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.7,
+    "capacity": 80,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish/English"
+    },
+    "promoted": false,
+    "phone": "(310) 458-2012",
+    "website": "https://barpintxosm.com",
+    "hours": "Tue-Sun 5pm-10pm",
+    "screens": 6
+  },
+  {
+    "id": "47",
+    "slug": "vermont-bar",
+    "name": "Vermont Bar",
+    "address": "1714 N Vermont Ave, Los Angeles, CA 90027",
+    "neighbourhood": "Los Feliz",
+    "about": "A neighbourhood favourite in Los Feliz that doubles as an Irish and British expat hub for big football events. Low-key and deeply passionate \u2014 the Ireland faithful in the Eastside know this is their spot when the Boys in Green are on.",
+    "teams": [
+      "Ireland",
+      "England",
+      "USA",
+      "Argentina"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.3,
+    "capacity": 100,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(323) 661-6613",
+    "website": null,
+    "hours": "Daily 11am-2am",
+    "screens": 9
   }
 ]

@@ -19,6 +19,9 @@ export default function Navbar() {
 
           <div className="hidden md:flex items-center gap-6 text-sm font-medium">
             <Link href="/bars" className="text-white/70 hover:text-white transition-colors">Find Bars</Link>
+            <Link href="/matches" className="text-white/70 hover:text-white transition-colors">Matches</Link>
+            <Link href="/team" className="text-white/70 hover:text-white transition-colors">By Nationality</Link>
+            <Link href="/neighbourhood/hollywood" className="text-white/70 hover:text-white transition-colors">Neighbourhoods</Link>
             <Link href="/claim" className="text-white/70 hover:text-white transition-colors">Add Your Bar</Link>
           </div>
 
@@ -42,6 +45,9 @@ export default function Navbar() {
         {open && (
           <div className="md:hidden py-4 border-t border-white/10 flex flex-col gap-4 text-sm font-medium">
             <Link href="/bars" className="text-white/70 hover:text-white transition-colors" onClick={() => setOpen(false)}>Find Bars</Link>
+            <Link href="/matches" className="text-white/70 hover:text-white transition-colors" onClick={() => setOpen(false)}>Matches</Link>
+            <Link href="/team" className="text-white/70 hover:text-white transition-colors" onClick={() => setOpen(false)}>By Nationality</Link>
+            <Link href="/neighbourhood/hollywood" className="text-white/70 hover:text-white transition-colors" onClick={() => setOpen(false)}>Neighbourhoods</Link>
             <Link href="/claim" className="text-white/70 hover:text-white transition-colors" onClick={() => setOpen(false)}>Add Your Bar</Link>
           </div>
         )}
