@@ -63,17 +63,17 @@ export default function HomePage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-6 relative z-10">
         <div className="flex flex-wrap gap-2 justify-center">
           {[
-            { label: '🇦🇷 Argentina', href: '/bars?team=Argentina' },
-            { label: '🇧🇷 Brazil', href: '/bars?team=Brazil' },
-            { label: '🇲🇽 Mexico', href: '/bars?team=Mexico' },
-            { label: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 England', href: '/bars?team=England' },
-            { label: '🇺🇸 USA', href: '/bars?team=USA' },
-            { label: '🇰🇷 South Korea', href: '/bars?team=South+Korea' },
-            { label: '🇫🇷 France', href: '/bars?team=France' },
-            { label: '🇩🇪 Germany', href: '/bars?team=Germany' },
-            { label: '🇵🇹 Portugal', href: '/bars?team=Portugal' },
-            { label: '🇨🇴 Colombia', href: '/bars?team=Colombia' },
-            { label: '🇯🇵 Japan', href: '/bars?team=Japan' },
+            { label: '🇦🇷 Argentina', href: '/team/argentina' },
+            { label: '🇧🇷 Brazil', href: '/team/brazil' },
+            { label: '🇲🇽 Mexico', href: '/team/mexico' },
+            { label: '🏴󠁧󠁢󠁥󠁮󠁧󠁿 England', href: '/team/england' },
+            { label: '🇺🇸 USA', href: '/team/usa' },
+            { label: '🇰🇷 South Korea', href: '/team/south-korea' },
+            { label: '🇫🇷 France', href: '/team/france' },
+            { label: '🇩🇪 Germany', href: '/team/germany' },
+            { label: '🇵🇹 Portugal', href: '/team/portugal' },
+            { label: '🇨🇴 Colombia', href: '/team/colombia' },
+            { label: '🇯🇵 Japan', href: '/team/japan' },
           ].map(({ label, href }) => (
             <Link
               key={label}
