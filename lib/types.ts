@@ -11,6 +11,12 @@ export type Neighbourhood =
   | 'Mid-City'
   | 'Highland Park'
   | 'Valley'
+  | 'Pasadena'
+  | 'Culver City'
+  | 'Atwater Village'
+  | 'Burbank'
+  | 'East LA'
+  | 'El Segundo'
 
 export type Vibe = 'rowdy' | 'electric' | 'chill' | 'local'
 

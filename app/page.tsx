@@ -86,6 +86,33 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Browse by Neighbourhood */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="text-center mb-4">
+          <p className="text-xs font-bold uppercase tracking-widest text-white/40 mb-3">Browse by Neighbourhood</p>
+        </div>
+        <div className="flex flex-wrap gap-2 justify-center">
+          {[
+            { label: '📍 Hollywood', href: '/neighbourhood/hollywood' },
+            { label: '📍 Koreatown', href: '/neighbourhood/koreatown' },
+            { label: '📍 Santa Monica', href: '/neighbourhood/santa-monica' },
+            { label: '📍 Downtown', href: '/neighbourhood/downtown' },
+            { label: '📍 East LA', href: '/neighbourhood/east-la' },
+            { label: '📍 Silver Lake', href: '/neighbourhood/silver-lake' },
+            { label: '📍 Venice', href: '/neighbourhood/venice' },
+            { label: '📍 Mid-City', href: '/neighbourhood/mid-city' },
+          ].map(({ label, href }) => (
+            <Link
+              key={label}
+              href={href}
+              className="text-sm font-medium bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white/70 hover:text-white px-4 py-2 rounded-full transition-all duration-200"
+            >
+              {label}
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* Featured Bars */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="flex items-end justify-between mb-10">

@@ -14,3 +14,7 @@ export function getFeaturedBars(): Bar[] {
 export function getBarsByTeam(team: string): Bar[] {
   return bars.filter((b) => b.teams.includes(team as Bar['teams'][number]))
 }
+
+export function getBarsByNeighbourhood(neighbourhood: string): Bar[] {
+  return bars.filter((b) => b.neighbourhood === neighbourhood)
+}

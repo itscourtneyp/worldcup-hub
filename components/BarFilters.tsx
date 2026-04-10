@@ -6,6 +6,8 @@ const NEIGHBOURHOODS: Neighbourhood[] = [
   'Hollywood', 'Silver Lake', 'Santa Monica', 'Downtown',
   'WeHo', 'Venice', 'Echo Park', 'Koreatown',
   'Los Feliz', 'Mid-City', 'Highland Park', 'Valley',
+  'Pasadena', 'Culver City', 'Atwater Village', 'Burbank',
+  'East LA', 'El Segundo',
 ]
 
 const VIBES: { value: Vibe; label: string }[] = [
