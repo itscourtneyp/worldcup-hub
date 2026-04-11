@@ -1310,7 +1310,7 @@
     "id": "54",
     "slug": "el-condor-echo-park",
     "name": "El Condor",
-    "address": "1714 W Sunset Blvd, Echo Park, CA 90026",
+    "address": "3701 Sunset Blvd, Los Angeles, CA 90026",
     "neighbourhood": "Echo Park",
     "about": "Echo Park go-to for Ecuadorian and wider South American football. Tri-Colores flags on the wall, Spanish commentary, and a crowd that gets louder with every Ecuador goal.",
     "teams": [
@@ -1327,7 +1327,9 @@
       "commentaryLanguage": "Spanish"
     },
     "promoted": false,
-    "hours": "Mon-Sun 10am-2am",
+    "phone": "(323) 660-4500",
+    "website": "https://elcondorla.com",
+    "hours": "Tue-Sun 5pm–11:30pm",
     "screens": 8
   },
   {
