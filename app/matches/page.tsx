@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Metadata } from 'next'
+import { LA_MATCHES, Match } from '@/lib/matches'
 
 export const metadata: Metadata = {
   title: 'World Cup 2026 LA Match Schedule — Find a Bar for Every Game | World Cup Hub LA',
@@ -22,156 +23,7 @@ export const metadata: Metadata = {
   },
 }
 
-interface Match {
-  date: string
-  dateShort: string
-  time: string
-  timeDisplay: string
-  teams: string
-  teamA: string
-  teamB: string
-  flagA: string
-  flagB: string
-  group: string
-  stage: 'group' | 'knockout'
-  isUSA: boolean
-  barTeams: string[]
-  barTeamSlugs: string[]
-  highlight?: string
-}
 
-const LA_MATCHES: Match[] = [
-  {
-    date: '2026-06-12',
-    dateShort: 'June 12',
-    time: 'PT',
-    timeDisplay: '3:00 PM PT',
-    teams: 'USA vs Paraguay',
-    teamA: 'USA',
-    teamB: 'Paraguay',
-    flagA: '🇺🇸',
-    flagB: '🇵🇾',
-    group: 'Group D',
-    stage: 'group',
-    isUSA: true,
-    barTeams: ['USA'],
-    barTeamSlugs: ['USA'],
-    highlight: "🇺🇸 USMNT Opening Match — Don't miss it",
-  },
-  {
-    date: '2026-06-15',
-    dateShort: 'June 15',
-    time: 'PT',
-    timeDisplay: 'TBC',
-    teams: 'Iran vs New Zealand',
-    teamA: 'Iran',
-    teamB: 'New Zealand',
-    flagA: '🇮🇷',
-    flagB: '🇳🇿',
-    group: 'Group D',
-    stage: 'group',
-    isUSA: false,
-    barTeams: [],
-    barTeamSlugs: [],
-  },
-  {
-    date: '2026-06-18',
-    dateShort: 'June 18',
-    time: 'PT',
-    timeDisplay: 'TBC',
-    teams: 'Switzerland vs Bosnia & Herzegovina',
-    teamA: 'Switzerland',
-    teamB: 'Bosnia & Herzegovina',
-    flagA: '🇨🇭',
-    flagB: '🇧🇦',
-    group: 'Group D',
-    stage: 'group',
-    isUSA: false,
-    barTeams: [],
-    barTeamSlugs: [],
-  },
-  {
-    date: '2026-06-21',
-    dateShort: 'June 21',
-    time: 'PT',
-    timeDisplay: 'TBC',
-    teams: 'Belgium vs Iran',
-    teamA: 'Belgium',
-    teamB: 'Iran',
-    flagA: '🇧🇪',
-    flagB: '🇮🇷',
-    group: 'Group G',
-    stage: 'group',
-    isUSA: false,
-    barTeams: [],
-    barTeamSlugs: [],
-  },
-  {
-    date: '2026-06-25',
-    dateShort: 'June 25',
-    time: 'PT',
-    timeDisplay: 'TBC',
-    teams: 'Türkiye vs USA',
-    teamA: 'Türkiye',
-    teamB: 'USA',
-    flagA: '🇹🇷',
-    flagB: '🇺🇸',
-    group: 'Group D',
-    stage: 'group',
-    isUSA: true,
-    barTeams: ['USA'],
-    barTeamSlugs: ['USA'],
-    highlight: '🇺🇸 USMNT must-win group decider',
-  },
-  {
-    date: '2026-06-28',
-    dateShort: 'June 28',
-    time: 'PT',
-    timeDisplay: 'TBC',
-    teams: 'Round of 32',
-    teamA: 'TBD',
-    teamB: 'TBD',
-    flagA: '⚽',
-    flagB: '⚽',
-    group: 'Round of 32',
-    stage: 'knockout',
-    isUSA: false,
-    barTeams: [],
-    barTeamSlugs: [],
-  },
-  {
-    date: '2026-07-02',
-    dateShort: 'July 2',
-    time: 'PT',
-    timeDisplay: 'TBC',
-    teams: 'Round of 32',
-    teamA: 'TBD',
-    teamB: 'TBD',
-    flagA: '⚽',
-    flagB: '⚽',
-    group: 'Round of 32',
-    stage: 'knockout',
-    isUSA: false,
-    barTeams: [],
-    barTeamSlugs: [],
-  },
-  {
-    date: '2026-07-10',
-    dateShort: 'July 10',
-    time: 'PT',
-    timeDisplay: 'TBC',
-    teams: 'Quarterfinal',
-    teamA: 'TBD',
-    teamB: 'TBD',
-    flagA: '⚽',
-    flagB: '⚽',
-    group: 'Quarterfinal',
-    stage: 'knockout',
-    isUSA: false,
-    barTeams: [],
-    barTeamSlugs: [],
-  },
-]
 
 const STAGE_STYLE: Record<string, string> = {
   group: 'bg-blue-500/20 text-blue-300 border border-blue-500/30',
@@ -374,22 +226,12 @@ function MatchCard({ match }: { match: Match }) {
 
       {/* CTA */}
       <div className="shrink-0">
-        {match.barTeamSlugs.length > 0 ? (
-          <Link
-            href={`/team/${match.barTeamSlugs[0].toLowerCase().replace(/ /g, '-')}`}
-            className="inline-flex items-center justify-center font-semibold text-sm px-4 py-2.5 rounded-xl transition-colors text-black"
-            style={{ background: '#00c853' }}
-          >
-            Find a bar →
-          </Link>
-        ) : (
-          <Link
-            href="/bars"
-            className="inline-flex items-center justify-center font-semibold text-sm px-4 py-2.5 rounded-xl transition-colors bg-white/10 hover:bg-white/20 text-white border border-white/20"
-          >
-            Find a bar →
-          </Link>
-        )}
+        <Link
+          href={`/matches/${match.slug}`}
+          className="inline-flex items-center justify-center font-semibold text-sm px-4 py-2.5 rounded-xl transition-colors bg-white/10 hover:bg-white/20 text-white border border-white/20"
+        >
+          View match →
+        </Link>
       </div>
     </div>
   )

@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next'
 import { bars } from '@/lib/bars'
 import { NATIONALITIES } from '@/lib/types'
+import { LA_MATCHES } from '@/lib/matches'
 
 const BASE_URL = 'https://worldcup-hub.vercel.app'
 
@@ -65,5 +66,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
-  return [...statics, ...teamPages, ...neighbourhoodPages, ...barPages]
+  // Match pages
+  const matchPages: MetadataRoute.Sitemap = LA_MATCHES.map((m) => ({
+    url: `${BASE_URL}/matches/${m.slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.85,
+  }))
+
+  return [...statics, ...matchPages, ...teamPages, ...neighbourhoodPages, ...barPages]
 }

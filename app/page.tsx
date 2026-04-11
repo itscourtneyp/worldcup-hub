@@ -52,6 +52,7 @@ export default function HomePage() {
             </p>
 
             <NationalitySelector />
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-8 justify-center mt-16 text-center">
             {[
