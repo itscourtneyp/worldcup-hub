@@ -33,7 +33,7 @@ const TIERS = [
   },
   {
     name: 'Featured',
-    price: '$99',
+    price: '$49',
     period: '/month',
     highlight: true,
     badge: '★ Most Popular',
@@ -44,7 +44,7 @@ const TIERS = [
       'Priority placement in results',
       'Gold-highlighted card border',
       'Featured on homepage grid',
-      'Social media mention',
+      'Social media mention (2x/week during tournament)',
     ],
     missing: [
       'Premium card treatment',
