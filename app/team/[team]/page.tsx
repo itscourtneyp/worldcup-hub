@@ -93,6 +93,24 @@ const TEAM_COPY: Record<Team, { headline: string; subhead: string; about: string
     about: "Spain's defending world champions have a passionate following across Los Angeles, concentrated in Silver Lake, Los Feliz, and the Westside. With Spanish commentary and a community that takes tiki-taka seriously, these are the spots where La Roja fans turn matchday into a proper Spanish afternoon — vermouth, pintxos, and all.",
     keywords: ['spain world cup bar los angeles', 'la roja bar los angeles 2026', 'where do spanish fans watch world cup la', 'spanish football bar los angeles', 'spain world cup 2026 watch party la'],
   },
+  Australia: {
+    headline: "Where Australian Fans Watch the World Cup in LA",
+    subhead: "The Socceroos have a loyal LA following. Find the best bars to watch Australia in 2026 — early kickoffs, cold beers, loud Aussies.",
+    about: "LA's Australian expat community is tightly knit and sports-mad. When the Socceroos play, you'll find their faithful in beach-adjacent spots with English commentary and that reliable Aussie determination to make noise regardless of the kickoff hour. The Galley in Santa Monica is their unofficial home base.",
+    keywords: ['australia world cup bar los angeles', 'socceroos bar los angeles 2026', 'where do australians watch world cup la', 'aussie bar world cup la'],
+  },
+  Austria: {
+    headline: "Where Austrian Fans Watch the World Cup in LA",
+    subhead: "Austria's faithful in LA have a proper spot at Das Bootshaus in El Segundo — German-speaking, Bavarian atmosphere, genuine football passion.",
+    about: "LA's Austrian and German-speaking community gathers at Das Bootshaus in El Segundo — the closest thing to a proper Austrian beer hall the Westside has to offer. With German commentary and proper Central European football passion, it's the go-to for Österreich fans on matchday.",
+    keywords: ['austria world cup bar los angeles', 'austrian bar los angeles 2026', 'where do austrians watch world cup la', 'das bootshaus world cup el segundo'],
+  },
+  Peru: {
+    headline: "Where Peruvian Fans Watch the World Cup in LA",
+    subhead: "La Blanquirroja fans in LA have a home at Mercado de Paloma — DTLA's most authentic Latin football experience.",
+    about: "LA's Peruvian community is passionate and proud, and Mercado de Paloma near USC is where they gather alongside Mexican and Colombian fans for the full Latin American matchday experience — ceviche, tamales, and Spanish commentary at full volume across the market's big screens.",
+    keywords: ['peru world cup bar los angeles', 'la blanquirroja bar los angeles 2026', 'where do peruvians watch world cup la', 'mercado de paloma world cup dtla'],
+  },
 }
 export async function generateStaticParams() {
   return NATIONALITIES.map((team) => ({

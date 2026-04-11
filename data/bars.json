@@ -1163,5 +1163,55 @@
     "website": null,
     "hours": "Daily 11am-2am",
     "screens": 9
+  },
+  {
+    "id": "48",
+    "slug": "el-farolito-east-la",
+    "name": "El Farolito",
+    "address": "4524 E C\u00e9sar E Ch\u00e1vez Ave, Los Angeles, CA 90022",
+    "neighbourhood": "East LA",
+    "about": "A true East LA institution. El Farolito transforms on El Tri matchdays into something between a watch party and a street celebration \u2014 the volume goes up, the aguas frescas come out, and the whole block feels it. This is where East LA cheers on Mexico with the intensity it deserves.",
+    "teams": [
+      "Mexico",
+      "USA"
+    ],
+    "vibe": "rowdy",
+    "vibeRating": 4.8,
+    "capacity": 120,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish"
+    },
+    "promoted": false,
+    "phone": "(323) 268-2400",
+    "website": "",
+    "hours": "Mon\u2013Sun 8am\u201312am",
+    "screens": 4
+  },
+  {
+    "id": "49",
+    "slug": "roccos-tavern-studio-city",
+    "name": "Rocco's Tavern",
+    "address": "4463 Van Nuys Blvd, Sherman Oaks, CA 91403",
+    "neighbourhood": "Valley",
+    "about": "One of LA's most reliable sports bar chains, Rocco's Tavern in Sherman Oaks packs wall-to-wall screens and a crowd that shows up for every major match. A genuine multi-nationality hub \u2014 England fans, American Outlaws, and everyone in between finds a seat here. Great for early-round group stage watching when you want atmosphere without the hipster tax.",
+    "teams": [
+      "USA",
+      "England",
+      "Mexico",
+      "Argentina"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.3,
+    "capacity": 200,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(818) 788-0177",
+    "website": "https://roccostavern.com",
+    "hours": "Mon\u2013Fri 11am\u20132am \u00b7 Sat\u2013Sun 10am\u20132am",
+    "screens": 20
   }
 ]
