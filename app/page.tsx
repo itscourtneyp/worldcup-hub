@@ -92,6 +92,8 @@ export default function HomePage() {
             { label: '🇦🇺 Australia', href: '/team/australia' },
             { label: '🇦🇹 Austria', href: '/team/austria' },
             { label: '🇵🇪 Peru', href: '/team/peru' },
+            { label: '🇨🇦 Canada', href: '/team/canada' },
+            { label: '🇳🇱 Netherlands', href: '/team/netherlands' },
           ].map(({ label, href }) => (
             <Link
               key={label}

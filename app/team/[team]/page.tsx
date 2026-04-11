@@ -111,6 +111,18 @@ const TEAM_COPY: Record<Team, { headline: string; subhead: string; about: string
     about: "LA's Peruvian community is passionate and proud, and Mercado de Paloma near USC is where they gather alongside Mexican and Colombian fans for the full Latin American matchday experience — ceviche, tamales, and Spanish commentary at full volume across the market's big screens.",
     keywords: ['peru world cup bar los angeles', 'la blanquirroja bar los angeles 2026', 'where do peruvians watch world cup la', 'mercado de paloma world cup dtla'],
   },
+  Canada: {
+    headline: "Where Canadian Fans Watch the World Cup in LA",
+    subhead: "Canada is a 2026 co-host — and LA's Canadian expat community finally has a World Cup to call their own. Find where Les Rouges fans gather in LA.",
+    about: "Canada co-hosts the 2026 World Cup alongside the USA and Mexico, making this a genuinely historic summer for Canadian football. LA has a large Canadian community — especially in the entertainment industry — and they have two proper gathering spots: Block Heater in Hollywood and The Northern Standard in Silver Lake. Expect red-and-white kits, English and French commentary, and a crowd experiencing their first-ever World Cup as hosts.",
+    keywords: ['canada world cup bar los angeles', 'where do canadians watch world cup la', 'les rouges bar los angeles 2026', 'canada co-host world cup 2026 bar'],
+  },
+  Netherlands: {
+    headline: "Where Dutch Fans Watch the World Cup in LA",
+    subhead: "Find LA's Oranje stronghold — where the Dutch community watches the Netherlands in 2026.",
+    about: "Los Angeles has a tight-knit Dutch expat community, and when Oranje play, they gather at The Dutch Colonial in Santa Monica — the only bar in LA flying the Netherlands flag on matchday. Orange kits, Dutch lagers, and the kind of passionate tactical football debate you'd expect from the nation that invented Total Football. A small but dedicated crew who make every match feel like a home fixture.",
+    keywords: ['netherlands world cup bar los angeles', 'dutch bar los angeles world cup 2026', 'oranje bar la', 'where do dutch fans watch world cup los angeles'],
+  },
 }
 export async function generateStaticParams() {
   return NATIONALITIES.map((team) => ({
