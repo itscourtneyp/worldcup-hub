@@ -1282,5 +1282,99 @@
     "promoted": false,
     "hours": "Tue–Fri 3pm–12am · Sat–Sun 11am–12am",
     "screens": 6
+  },
+  {
+    "id": "53",
+    "slug": "casablanca-lounge-culver-city",
+    "name": "Casablanca Lounge",
+    "address": "3925 Sepulveda Blvd, Culver City, CA 90230",
+    "neighbourhood": "Culver City",
+    "about": "LA closest thing to a dedicated Moroccan football bar. Tea, tajine, and Atlas Lions pride on every screen. The Moroccan community in Culver City turns out in force for AFCON and World Cup.",
+    "teams": [
+      "Morocco",
+      "France",
+      "Spain"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.3,
+    "capacity": 80,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Arabic/French/English"
+    },
+    "promoted": false,
+    "hours": "Mon-Sun 11am-midnight",
+    "screens": 6
+  },
+  {
+    "id": "54",
+    "slug": "el-condor-echo-park",
+    "name": "El Condor",
+    "address": "1714 W Sunset Blvd, Echo Park, CA 90026",
+    "neighbourhood": "Echo Park",
+    "about": "Echo Park go-to for Ecuadorian and wider South American football. Tri-Colores flags on the wall, Spanish commentary, and a crowd that gets louder with every Ecuador goal.",
+    "teams": [
+      "Ecuador",
+      "Colombia",
+      "Argentina",
+      "Mexico"
+    ],
+    "vibe": "rowdy",
+    "vibeRating": 4.5,
+    "capacity": 100,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish"
+    },
+    "promoted": false,
+    "hours": "Mon-Sun 10am-2am",
+    "screens": 8
+  },
+  {
+    "id": "55",
+    "slug": "the-caledonian-weho",
+    "name": "The Caledonian",
+    "address": "8615 Santa Monica Blvd, West Hollywood, CA 90069",
+    "neighbourhood": "WeHo",
+    "about": "The Tartan Army LA outpost. Scotland shirts on the wall, proper Scottish bitter on tap, and a crowd that shows up even when Scotland does not. The only bar in LA that goes quiet every time a goal goes against the Scots.",
+    "teams": [
+      "Scotland",
+      "England",
+      "Ireland"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.4,
+    "capacity": 120,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "hours": "Mon-Fri 11am-2am, Sat-Sun 8am-2am",
+    "screens": 10
+  },
+  {
+    "id": "56",
+    "slug": "atlas-sports-lounge-downtown",
+    "name": "Atlas Sports Lounge",
+    "address": "655 S Hope St, Downtown, Los Angeles, CA 90017",
+    "neighbourhood": "Downtown",
+    "about": "Named for the Atlas Lions, this Downtown bar draws the North African diaspora from across Greater LA. Arabic and French commentary, Moroccan mint tea at half-time, wall-to-wall screens for Atlas Lions watches.",
+    "teams": [
+      "Morocco",
+      "France",
+      "Germany",
+      "USA"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.6,
+    "capacity": 130,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "Arabic/French/English"
+    },
+    "promoted": false,
+    "hours": "Mon-Sun 11am-2am",
+    "screens": 14
   }
 ]

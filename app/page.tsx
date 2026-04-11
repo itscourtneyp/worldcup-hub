@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import BarCard from '@/components/BarCard'
 import NationalitySelector from '@/components/NationalitySelector'
+import CountdownClock from '@/components/CountdownClock'
 import { getFeaturedBars, bars } from '@/lib/bars'
 import { NATIONALITIES } from '@/lib/types'
 
@@ -52,6 +53,7 @@ export default function HomePage() {
             </p>
 
             <NationalitySelector />
+            <CountdownClock />
           </div>
 
           <div className="flex flex-col sm:flex-row gap-8 justify-center mt-16 text-center">
@@ -94,6 +96,9 @@ export default function HomePage() {
             { label: '🇵🇪 Peru', href: '/team/peru' },
             { label: '🇨🇦 Canada', href: '/team/canada' },
             { label: '🇳🇱 Netherlands', href: '/team/netherlands' },
+            { label: '🇲🇦 Morocco', href: '/team/morocco' },
+            { label: '🇪🇨 Ecuador', href: '/team/ecuador' },
+            { label: '🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland', href: '/team/scotland' },
           ].map(({ label, href }) => (
             <Link
               key={label}

@@ -123,6 +123,24 @@ const TEAM_COPY: Record<Team, { headline: string; subhead: string; about: string
     about: "Los Angeles has a tight-knit Dutch expat community, and when Oranje play, they gather at The Dutch Colonial in Santa Monica — the only bar in LA flying the Netherlands flag on matchday. Orange kits, Dutch lagers, and the kind of passionate tactical football debate you'd expect from the nation that invented Total Football. A small but dedicated crew who make every match feel like a home fixture.",
     keywords: ['netherlands world cup bar los angeles', 'dutch bar los angeles world cup 2026', 'oranje bar la', 'where do dutch fans watch world cup los angeles'],
   },
+  Morocco: {
+    headline: "Where Moroccan Fans Watch the World Cup in LA",
+    subhead: "Find the LA bars where the North African community watches the Atlas Lions in 2026.",
+    about: "The Atlas Lions have one of the most passionate fanbases in world football — and LA's North African diaspora brings that energy to matchday. Casablanca Lounge in Culver City and Atlas Sports Lounge Downtown are where the community gathers: Arabic and French commentary, mint tea at half-time, and the electric atmosphere that makes watching Morocco unlike watching any other team.",
+    keywords: ['morocco world cup bar los angeles', 'moroccan bar la world cup 2026', 'atlas lions bar los angeles', 'where do moroccan fans watch world cup la'],
+  },
+  Ecuador: {
+    headline: "Where Ecuadorian Fans Watch the World Cup in LA",
+    subhead: "Find the LA bars where the Tri-Colores community gathers on matchday.",
+    about: "LA has one of the largest Ecuadorian communities in the US, and they bring serious football passion to every matchday. El Cóndor in Echo Park is the spiritual home — Spanish commentary, flags on the walls, and a crowd that erupts when Ecuador scores. Whether you're from Guayaquil or Quito, you'll feel it.",
+    keywords: ['ecuador world cup bar los angeles', 'ecuadorian bar la world cup 2026', 'tri-colores bar los angeles', 'where do ecuadorian fans watch world cup la'],
+  },
+  Scotland: {
+    headline: "Where Scottish Fans Watch the World Cup in LA",
+    subhead: "Find the LA home of the Tartan Army — Scotland supporters in Los Angeles.",
+    about: "Scotland supporters are a breed apart. The Caledonian in WeHo is their LA stronghold — Scotland shirts on the walls, proper Scottish bitter on tap, and a crowd that shows up and believes, every single time. Come early, sing loud, and prepare for the emotional rollercoaster that is following Scotland.",
+    keywords: ['scotland world cup bar los angeles', 'scottish bar la world cup 2026', 'tartan army bar los angeles', 'where do scottish fans watch football la'],
+  },
 }
 export async function generateStaticParams() {
   return NATIONALITIES.map((team) => ({
