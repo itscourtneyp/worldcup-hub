@@ -1953,5 +1953,198 @@
     "phone": "(310) 376-9951",
     "hours": "Mon\u2013Fri noon\u20132am \u00b7 Sat\u2013Sun 10am\u20132am",
     "screens": 10
+  },
+  {
+    "id": "81",
+    "slug": "el-tepeyac-cafe",
+    "name": "El Tepeyac Cafe",
+    "address": "812 N Evergreen Ave, Los Angeles, CA 90033",
+    "neighbourhood": "Boyle Heights",
+    "about": "A Boyle Heights landmark since 1955, famous for its Hollenbeck burrito and unapologetically massive plates. During World Cup season, El Tepeyac becomes a gathering point for Mexican and American fans in equal measure — families pack the booths, the TV is turned to Univision, and the atmosphere is pure neighbourhood pride. Not a sports bar by design, but a cultural institution that becomes one when the selección plays.",
+    "teams": [
+      "Mexico",
+      "USA"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.4,
+    "capacity": 80,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish"
+    },
+    "promoted": false,
+    "phone": "(323) 268-1960",
+    "hours": "Mon–Sat 6am–9pm · Sun 7am–8pm",
+    "screens": 2
+  },
+  {
+    "id": "82",
+    "slug": "la-serenata-de-garibaldi",
+    "name": "La Serenata de Garibaldi",
+    "address": "1842 E 1st St, Los Angeles, CA 90033",
+    "neighbourhood": "Boyle Heights",
+    "about": "A beloved Boyle Heights seafood restaurant where mariachi music fills the room and World Cup matches fill the screen. La Serenata draws a multigenerational crowd of Mexican and American fans who come for the ceviche and stay for the penalties. When El Tri plays, the energy is unmatched — tables push together, strangers become friends, and every goal gets a standing ovation.",
+    "teams": [
+      "Mexico",
+      "USA"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.3,
+    "capacity": 120,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish"
+    },
+    "promoted": false,
+    "phone": "(323) 265-2887",
+    "hours": "Mon–Thu 11am–9pm · Fri–Sat 11am–10pm · Sun 10am–9pm",
+    "screens": 3
+  },
+  {
+    "id": "83",
+    "slug": "el-gallo-bar",
+    "name": "El Gallo Bar",
+    "address": "4331 Whittier Blvd, Los Angeles, CA 90023",
+    "neighbourhood": "East LA",
+    "about": "A no-frills East LA dive where football is religion and the jukebox stops when the match starts. El Gallo is the kind of bar where Mexican, Salvadoran, and Guatemalan fans argue about CONCACAF qualifiers over cheap beer and shots of tequila. During the World Cup, every stool is taken, the volume is maxed, and the patio becomes overflow seating. Authentic, loud, and unforgettable.",
+    "teams": [
+      "Mexico",
+      "El Salvador",
+      "Guatemala"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.2,
+    "capacity": 60,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish"
+    },
+    "promoted": false,
+    "phone": "(323) 269-8463",
+    "hours": "Mon–Sun 10am–2am",
+    "screens": 4
+  },
+  {
+    "id": "84",
+    "slug": "eastside-luv",
+    "name": "Eastside Luv",
+    "address": "1835 E 1st St, Los Angeles, CA 90033",
+    "neighbourhood": "Boyle Heights",
+    "about": "A wine and beer bar with serious Boyle Heights soul. Eastside Luv attracts a younger, creative crowd — think vinyl DJs, craft cocktails, and Frida Kahlo on the wall. But when Argentina or Mexico play, the art crowd becomes a football crowd fast. The intimate space makes every goal feel like a house party. One of the most stylish places to watch the World Cup east of the river.",
+    "teams": [
+      "Mexico",
+      "Argentina"
+    ],
+    "vibe": "chill",
+    "vibeRating": 4.5,
+    "capacity": 50,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish"
+    },
+    "promoted": false,
+    "phone": "(323) 262-7442",
+    "hours": "Tue–Thu 5pm–12am · Fri–Sat 5pm–2am · Sun 3pm–10pm",
+    "screens": 2
+  },
+  {
+    "id": "85",
+    "slug": "raffis-place",
+    "name": "Raffi's Place",
+    "address": "211 E Broadway, Glendale, CA 91205",
+    "neighbourhood": "Glendale",
+    "about": "Glendale's premier Armenian restaurant doubles as one of the best World Cup viewing spots in the San Fernando Valley corridor. The kebabs are legendary, the crowd is passionate, and when France — a perennial favourite of the Armenian diaspora — takes the pitch, the room erupts. American and Armenian fans blend seamlessly here, and the communal dining style makes it feel like watching with extended family.",
+    "teams": [
+      "Armenia",
+      "France",
+      "USA"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.4,
+    "capacity": 150,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(818) 240-7411",
+    "website": "https://www.raffisplace.com",
+    "hours": "Mon–Sun 11am–10pm",
+    "screens": 4
+  },
+  {
+    "id": "86",
+    "slug": "carousel-restaurant",
+    "name": "Carousel Restaurant",
+    "address": "304 N Brand Blvd, Glendale, CA 91203",
+    "neighbourhood": "Glendale",
+    "about": "A Glendale institution serving Middle Eastern cuisine since 1987. Carousel is where the Armenian and Lebanese communities come together over mezza platters and football. France matches draw the biggest crowds — Mbappé jerseys outnumber any other — but the restaurant fills for any high-stakes knockout game. The banquet-style dining room handles large groups effortlessly, and the bar area is dedicated viewing territory.",
+    "teams": [
+      "Armenia",
+      "France",
+      "USA"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.3,
+    "capacity": 200,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(818) 246-7775",
+    "website": "https://www.carouselrestaurant.com",
+    "hours": "Mon–Thu 11am–10pm · Fri–Sat 11am–11pm · Sun 10am–10pm",
+    "screens": 5
+  },
+  {
+    "id": "87",
+    "slug": "public-house-glendale",
+    "name": "Public House Glendale",
+    "address": "100 W Broadway, Glendale, CA 91210",
+    "neighbourhood": "Glendale",
+    "about": "A gastropub with craft beer on tap and a wall of screens that makes it Glendale's most dedicated sports viewing destination. Public House draws a mix of American, English, and Armenian fans for every World Cup match — the kind of place where a lunchtime group-stage game has 30 people watching intently. Good food, good beer, and a staff that understands how to run sound for the right match.",
+    "teams": [
+      "USA",
+      "England",
+      "Armenia"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.1,
+    "capacity": 120,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(818) 662-4663",
+    "hours": "Mon–Thu 11am–12am · Fri–Sat 11am–2am · Sun 10am–12am",
+    "screens": 14
+  },
+  {
+    "id": "88",
+    "slug": "portos-bakery-glendale",
+    "name": "Porto's Bakery",
+    "address": "315 N Brand Blvd, Glendale, CA 91203",
+    "neighbourhood": "Glendale",
+    "about": "Yes, Porto's — the legendary Cuban bakery. The Glendale flagship has a spacious café area where fans gather around the TV during World Cup season, fuelled by café con leche and potato balls. It's not a sports bar, but it's a cultural crossroads: Cuban, Mexican, American, and Spanish fans sharing tables and pastries while the match plays. A uniquely LA World Cup experience that only Porto's could deliver.",
+    "teams": [
+      "Cuba",
+      "USA",
+      "Mexico",
+      "Spain"
+    ],
+    "vibe": "chill",
+    "vibeRating": 4.0,
+    "capacity": 100,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(818) 956-5996",
+    "website": "https://www.portosbakery.com",
+    "hours": "Mon–Sat 6:30am–8pm · Sun 7am–7pm",
+    "screens": 2
   }
 ]

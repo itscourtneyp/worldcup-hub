@@ -52,7 +52,7 @@ const TIERS = [
       'Dedicated page spotlight',
     ],
     cta: 'Get Featured',
-    href: '/claim?tier=featured',
+    href: '/checkout?tier=featured',
     ctaStyle: 'bg-red-600 hover:bg-red-500 text-white',
   },
   {
@@ -75,7 +75,7 @@ const TIERS = [
     ],
     missing: [],
     cta: 'Go Premium',
-    href: '/claim?tier=premium',
+    href: '/checkout?tier=premium',
     ctaStyle: 'bg-yellow-500 hover:bg-yellow-400 text-black font-bold',
   },
 ]
