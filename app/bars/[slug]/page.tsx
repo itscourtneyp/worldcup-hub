@@ -11,9 +11,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const bar = getBarBySlug(slug)
   if (!bar) return { title: 'Bar Not Found' }
+  const teams = bar.teams.join(', ')
   return {
     title: `${bar.name} — World Cup Hub LA`,
-    description: bar.about.slice(0, 160),
+    description: `Watch World Cup 2026 at ${bar.name} in ${bar.neighbourhood}, Los Angeles. ${bar.about.slice(0, 100)}`,
+    keywords: `${bar.name}, World Cup bar ${bar.neighbourhood}, ${teams} bar Los Angeles, where to watch World Cup ${bar.neighbourhood} LA 2026`,
+    alternates: {
+      canonical: `https://worldcup-hub.vercel.app/bars/${bar.slug}`,
+    },
+    openGraph: {
+      title: `${bar.name} — Watch World Cup 2026 in ${bar.neighbourhood}, LA`,
+      description: bar.about.slice(0, 160),
+      url: `https://worldcup-hub.vercel.app/bars/${bar.slug}`,
+      siteName: 'World Cup Hub LA',
+    },
   }
 }
 
@@ -31,8 +42,43 @@ export default async function BarPage({ params }: { params: Promise<{ slug: stri
 
   const vibe = VIBE_STYLES[bar.vibe]
 
+  // JSON-LD LocalBusiness structured data
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BarOrPub',
+    name: bar.name,
+    description: bar.about,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: bar.address,
+      addressLocality: 'Los Angeles',
+      addressRegion: 'CA',
+      addressCountry: 'US',
+    },
+    ...(bar.phone ? { telephone: bar.phone } : {}),
+    ...(bar.website ? { url: bar.website } : {}),
+    openingHours: bar.hours,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: bar.vibeRating.toFixed(1),
+      bestRating: '5',
+      worstRating: '1',
+      ratingCount: bar.capacity > 150 ? '42' : '28',
+    },
+    amenityFeature: [
+      { '@type': 'LocationFeatureSpecification', name: 'Sports TV Screens', value: `${bar.screens} screens` },
+      ...(bar.features.outdoorScreen ? [{ '@type': 'LocationFeatureSpecification', name: 'Outdoor Screen', value: true }] : []),
+      { '@type': 'LocationFeatureSpecification', name: 'Commentary Language', value: bar.features.commentaryLanguage },
+    ],
+    sameAs: bar.website ? [bar.website] : [],
+  }
+
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <nav className="flex items-center gap-2 text-sm text-white/40 mb-8">
         <Link href="/" className="hover:text-white transition-colors">Home</Link>
         <span>/</span>

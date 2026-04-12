@@ -189,8 +189,39 @@ export default async function TeamPage({ params }: { params: Promise<{ team: str
   // Related teams (all except current)
   const relatedTeams = NATIONALITIES.filter((t) => t !== team).slice(0, 6)
 
+  // JSON-LD: ItemList of bars for this team
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Best ${team} World Cup Bars in Los Angeles 2026`,
+    description: copy.subhead,
+    url: `https://worldcup-hub.vercel.app/team/${toSlug(team)}`,
+    numberOfItems: teamBars.length,
+    itemListElement: teamBars.map((bar, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: bar.name,
+      url: `https://worldcup-hub.vercel.app/bars/${bar.slug}`,
+      item: {
+        '@type': 'BarOrPub',
+        name: bar.name,
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: bar.address,
+          addressLocality: 'Los Angeles',
+          addressRegion: 'CA',
+          addressCountry: 'US',
+        },
+      },
+    })),
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="hero-gradient relative overflow-hidden">
         <div
