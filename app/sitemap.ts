@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const statics: MetadataRoute.Sitemap = [
     { url: BASE_URL, lastModified: now, changeFrequency: 'daily', priority: 1 },
     { url: `${BASE_URL}/bars`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
+    { url: `${BASE_URL}/map`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
     { url: `${BASE_URL}/team`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE_URL}/matches`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE_URL}/promote`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },

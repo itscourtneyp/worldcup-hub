@@ -115,4 +115,6 @@ export interface Bar {
   website?: string
   hours: string
   screens: number
+  lat?: number
+  lng?: number
 }
