@@ -1502,5 +1502,335 @@
     "website": "https://maccheronirepublic.com",
     "hours": "Mon–Fri 11:30am–10pm · Sat–Sun 10am–10pm",
     "screens": 5
+  },
+  {
+    "id": "62",
+    "slug": "tom-bergins-tavern",
+    "name": "Tom Bergin's Tavern",
+    "address": "840 S Fairfax Ave, Los Angeles, CA 90036",
+    "neighbourhood": "Mid-City",
+    "about": "One of LA’s oldest Irish bars, open since 1936. Tom Bergin’s is a proper pub time-warp — dark wood, Guinness on tap, shamrocks on the ceiling. Ireland and England fans have been gathering here for decades. Expect full mid-city energy for the knockout rounds.",
+    "teams": [
+      "Ireland",
+      "England",
+      "USA"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.5,
+    "capacity": 200,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(323) 936-7151",
+    "website": "https://www.tombergins.com",
+    "hours": "Mon–Fri 11am–2am · Sat–Sun 9am–2am",
+    "screens": 14
+  },
+  {
+    "id": "63",
+    "slug": "el-condor",
+    "name": "El Condor",
+    "address": "2999 Pasadena Ave, Los Angeles, CA 90031",
+    "neighbourhood": "Echo Park",
+    "about": "Echo Park’s favourite Mexican and Colombian bar. El Condor is standing-room only when El Tri or La Tricolor plays — Spanish commentary, outdoor patio, and a vibe that feels more Guadalajara than LA. Closed Mondays.",
+    "teams": [
+      "Mexico",
+      "Colombia",
+      "USA"
+    ],
+    "vibe": "rowdy",
+    "vibeRating": 4.3,
+    "capacity": 130,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "Spanish"
+    },
+    "promoted": false,
+    "phone": "(213) 484-3695",
+    "website": "https://www.elcondorla.com",
+    "hours": "Tue–Sun 4pm–2am",
+    "screens": 8
+  },
+  {
+    "id": "64",
+    "slug": "la-cuevita",
+    "name": "La Cuevita",
+    "address": "5922 N Figueroa St, Los Angeles, CA 90042",
+    "neighbourhood": "Highland Park",
+    "about": "Highland Park’s best mezcal bar doubles as the neighbourhood’s El Tri headquarters. La Cuevita has low lighting, killer agave spirits, and a loyal crew of Mexico, Colombia, and USA fans who fill the place for every big match.",
+    "teams": [
+      "Mexico",
+      "Colombia",
+      "USA"
+    ],
+    "vibe": "rowdy",
+    "vibeRating": 4.2,
+    "capacity": 100,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish/English"
+    },
+    "promoted": false,
+    "phone": "(323) 259-9011",
+    "website": "https://www.lacuevitabar.com",
+    "hours": "Mon–Fri 5pm–2am · Sat–Sun 2pm–2am",
+    "screens": 6
+  },
+  {
+    "id": "65",
+    "slug": "la-barca-sports-bar-inglewood",
+    "name": "La Barca Sports Bar",
+    "address": "333 N Market St, Inglewood, CA 90301",
+    "neighbourhood": "Inglewood",
+    "about": "The closest dedicated sports bar to SoFi Stadium. La Barca is where Inglewood locals and Mexico fans gather — a 10-minute walk from the stadium gates, with Spanish commentary, outdoor screens, and a crowd that starts loud and gets louder. The go-to pre/post-SoFi spot.",
+    "teams": [
+      "Mexico",
+      "USA",
+      "Brazil",
+      "Colombia"
+    ],
+    "vibe": "rowdy",
+    "vibeRating": 4.4,
+    "capacity": 220,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "Spanish/English"
+    },
+    "promoted": false,
+    "phone": "(310) 674-2200",
+    "website": "",
+    "hours": "Daily 11am–2am",
+    "screens": 16
+  },
+  {
+    "id": "66",
+    "slug": "rush-street-culver-city",
+    "name": "Rush Street",
+    "address": "9545 Culver Blvd, Culver City, CA 90232",
+    "neighbourhood": "Culver City",
+    "about": "Culver City’s main sports bar event. Rush Street runs 30+ screens, a rooftop deck, and knows how to pack a crowd. USA, England, and Germany fans dominate the regulars — with strong Colombia and Argentina representation from the surrounding creative industry crowd.",
+    "teams": [
+      "USA",
+      "England",
+      "Germany",
+      "Colombia"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.5,
+    "capacity": 300,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(310) 837-9546",
+    "website": "https://www.rushstreetla.com",
+    "hours": "Daily 11am–2am",
+    "screens": 30
+  },
+  {
+    "id": "67",
+    "slug": "brennans-pub-marina",
+    "name": "Brennan's Pub",
+    "address": "4089 Lincoln Blvd, Marina del Rey, CA 90292",
+    "neighbourhood": "Marina del Rey",
+    "about": "Marina del Rey’s beloved Irish pub — a proper neighbourhood local since 1959. Brennan’s is intimate, friendly, and absolutely packed when Ireland or England plays. The turtle racing tradition is on hold for the tournament, replaced by football on every screen.",
+    "teams": [
+      "Ireland",
+      "England",
+      "USA"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.6,
+    "capacity": 150,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(310) 821-6622",
+    "website": "https://www.brennansbar.com",
+    "hours": "Mon–Fri 4pm–2am · Sat–Sun 11am–2am",
+    "screens": 10
+  },
+  {
+    "id": "68",
+    "slug": "the-federal-bar-noho",
+    "name": "The Federal Bar",
+    "address": "5303 Lankershim Blvd, North Hollywood, CA 91601",
+    "neighbourhood": "North Hollywood",
+    "about": "The best sports bar in the Valley. Federal Bar has an enormous screen wall, standing room of 400+, and a crowd that spans every nationality in NoHo. USA and England fans fill the front; Argentina and Mexico contingents take over the back room for the big matches.",
+    "teams": [
+      "USA",
+      "England",
+      "Argentina",
+      "Mexico"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.6,
+    "capacity": 400,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(818) 980-2555",
+    "website": "https://www.thefederalbar.com",
+    "hours": "Mon–Fri 4pm–2am · Sat–Sun 11am–2am",
+    "screens": 24
+  },
+  {
+    "id": "69",
+    "slug": "hermosillo-highland-park",
+    "name": "Hermosillo",
+    "address": "4923 York Blvd, Los Angeles, CA 90042",
+    "neighbourhood": "Highland Park",
+    "about": "Highland Park’s coolest cocktail bar goes full El Tri mode for World Cup 2026. Hermosillo draws a young Mexican and Colombian crowd from across Northeast LA — agave-forward drinks, Spanish commentary, and a packed patio when Mexico plays.",
+    "teams": [
+      "Mexico",
+      "Colombia",
+      "USA"
+    ],
+    "vibe": "chill",
+    "vibeRating": 4.3,
+    "capacity": 110,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "Spanish/English"
+    },
+    "promoted": false,
+    "phone": "(323) 739-6459",
+    "website": "https://www.hpxo.com",
+    "hours": "Mon–Thu 5pm–2am · Fri 3pm–2am · Sat–Sun 2pm–2am",
+    "screens": 6
+  },
+  {
+    "id": "70",
+    "slug": "golden-road-brewing-atwater",
+    "name": "Golden Road Brewing",
+    "address": "5410 W San Fernando Rd, Los Angeles, CA 90039",
+    "neighbourhood": "Atwater Village",
+    "about": "LA’s most popular brewery has a massive beer garden that becomes the city’s best outdoor World Cup venue. Golden Road runs giant projection screens, serves 30+ beers on tap, and holds 500+ people — ideal for big group stage and knockout matches.",
+    "teams": [
+      "USA",
+      "Mexico",
+      "England",
+      "Germany"
+    ],
+    "vibe": "chill",
+    "vibeRating": 4.4,
+    "capacity": 500,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(213) 373-4677",
+    "website": "https://www.goldenroad.la",
+    "hours": "Mon–Fri 11am–10pm · Sat–Sun 10am–11pm",
+    "screens": 20
+  },
+  {
+    "id": "71",
+    "slug": "bar-lubitsch",
+    "name": "Bar Lubitsch",
+    "address": "7702 Santa Monica Blvd, West Hollywood, CA 90046",
+    "neighbourhood": "WeHo",
+    "about": "WeHo’s Eastern European-inspired bar is a hidden gem for European football fans. Bar Lubitsch draws German, Austrian, and French supporters — vodkas, schnapps, and a crowd that actually cares about the group stage. Quietly one of the best spots in the city for continental European football.",
+    "teams": [
+      "Germany",
+      "Austria",
+      "France"
+    ],
+    "vibe": "chill",
+    "vibeRating": 4.0,
+    "capacity": 100,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English/German"
+    },
+    "promoted": false,
+    "phone": "(323) 654-1234",
+    "website": "https://www.barlubitsch.com",
+    "hours": "Daily 6pm–2am",
+    "screens": 6
+  },
+  {
+    "id": "72",
+    "slug": "alexs-bar-long-beach",
+    "name": "Alex's Bar",
+    "address": "2913 E Anaheim St, Long Beach, CA 90804",
+    "neighbourhood": "Long Beach",
+    "about": "Long Beach’s best dive bar hosts the city’s loudest World Cup watch parties. Alex’s Bar is a no-frills, maximum-atmosphere spot drawing Mexico and USA fans from the Long Beach Latino community — cheap beers, loud crowds, and pure football culture.",
+    "teams": [
+      "Mexico",
+      "USA",
+      "Colombia"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.1,
+    "capacity": 200,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Spanish/English"
+    },
+    "promoted": false,
+    "phone": "(562) 434-8292",
+    "website": "https://www.alexsbar.com",
+    "hours": "Daily 4pm–2am",
+    "screens": 8
+  },
+  {
+    "id": "73",
+    "slug": "la-poubelle",
+    "name": "La Poubelle",
+    "address": "5907 Franklin Ave, Los Angeles, CA 90028",
+    "neighbourhood": "Hollywood",
+    "about": "Hollywood’s favourite French bistro-bar packs out for France and Portugal matches. La Poubelle has been a Francophile institution since 1972 — intimate, noisy, and brilliant when les Bleus play. Book a table; walk-ins are optimistic for France knockout games.",
+    "teams": [
+      "France",
+      "Portugal",
+      "Spain"
+    ],
+    "vibe": "electric",
+    "vibeRating": 4.4,
+    "capacity": 120,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "French/English"
+    },
+    "promoted": false,
+    "phone": "(323) 465-0807",
+    "website": "https://www.lapoubellerestaurant.com",
+    "hours": "Daily 4pm–2am",
+    "screens": 6
+  },
+  {
+    "id": "74",
+    "slug": "silverlake-lounge",
+    "name": "Silverlake Lounge",
+    "address": "2906 Sunset Blvd, Los Angeles, CA 90026",
+    "neighbourhood": "Silver Lake",
+    "about": "Silver Lake’s indie bar scene meets football culture at this classic Sunset Strip dive. Silverlake Lounge draws a creative, international crowd — USA and Mexico fans with a healthy contingent of Brazilian and Colombian regulars. Low-key for group stage, properly rowdy when the stakes rise.",
+    "teams": [
+      "USA",
+      "Mexico",
+      "Brazil",
+      "Colombia"
+    ],
+    "vibe": "local",
+    "vibeRating": 4.0,
+    "capacity": 150,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English/Spanish"
+    },
+    "promoted": false,
+    "phone": "(323) 663-9636",
+    "website": "https://www.silverlakelounge.com",
+    "hours": "Daily 8pm–2am",
+    "screens": 8
   }
 ]
