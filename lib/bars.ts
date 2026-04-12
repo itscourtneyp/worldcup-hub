@@ -1,7 +1,7 @@
 import { Bar } from './types'
 import barsData from '@/data/bars.json'
 
-export const bars: Bar[] = barsData as Bar[]
+export const bars: Bar[] = barsData as unknown as Bar[]
 
 export function getBarBySlug(slug: string): Bar | undefined {
   return bars.find((b) => b.slug === slug)
