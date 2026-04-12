@@ -66,8 +66,47 @@ export default async function NeighbourhoodPage({
     (n) => n !== neighbourhood
   ).slice(0, 9)
 
+  // JSON-LD ItemList for neighbourhood bars
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Best World Cup 2026 Bars in ${neighbourhood}, Los Angeles`,
+    description: copy.about,
+    url: `https://worldcup-hub.vercel.app/neighbourhood/${neighbourhoodToSlug(neighbourhood)}`,
+    numberOfItems: neighbourhoodBars.length,
+    itemListElement: neighbourhoodBars.map((bar, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      item: {
+        '@type': 'BarOrPub',
+        name: bar.name,
+        url: `https://worldcup-hub.vercel.app/bars/${bar.slug}`,
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: bar.address,
+          addressLocality: 'Los Angeles',
+          addressRegion: 'CA',
+          addressCountry: 'US',
+        },
+        ...(bar.phone ? { telephone: bar.phone } : {}),
+        ...(bar.website ? { sameAs: [bar.website] } : {}),
+        aggregateRating: {
+          '@type': 'AggregateRating',
+          ratingValue: bar.vibeRating.toFixed(1),
+          bestRating: '5',
+          worstRating: '1',
+          ratingCount: '24',
+        },
+      },
+    })),
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Hero */}
       <section className="hero-gradient relative overflow-hidden">
         <div
