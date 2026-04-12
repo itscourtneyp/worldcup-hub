@@ -12,13 +12,16 @@ export const metadata = {
 export default async function CheckoutSuccessPage({
   searchParams,
 }: {
-  searchParams: Promise<{ tier?: string }>
+  searchParams: Promise<{ tier?: string; session_id?: string }>
 }) {
   const { tier } = await searchParams
   const tierName = TIER_INFO[tier || ''] || 'Featured'
 
   return (
-    <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
+    <div
+      className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center"
+      style={{ background: '#0a0f1a' }}
+    >
       <p className="text-6xl mb-6">&#9989;</p>
       <h1 className="text-4xl font-black text-white mb-4">Payment confirmed!</h1>
       <p className="text-white/60 text-lg leading-relaxed mb-3">
@@ -26,7 +29,7 @@ export default async function CheckoutSuccessPage({
         within 24 hours.
       </p>
       <p className="text-white/40 text-sm mb-10">
-        We&apos;ll email you when it&apos;s live. For questions:{' '}
+        Questions?{' '}
         <a
           href="mailto:hello@worldcuphubla.com"
           className="text-red-400 hover:text-red-300 underline transition-colors"
