@@ -1832,5 +1832,126 @@
     "website": "https://www.silverlakelounge.com",
     "hours": "Daily 8pm–2am",
     "screens": 8
+  },
+  {
+    "id": "75",
+    "slug": "dan-sung-sa",
+    "name": "Dan Sung Sa",
+    "address": "3317 W 6th St, Los Angeles, CA 90020",
+    "neighbourhood": "Koreatown",
+    "about": "The most iconic Korean beer hall in America. Dan Sung Sa is a legendary hof — an old-school Korean drinking den where beer towers flow alongside plates of dried squid and fried chicken until 4am. When South Korea play, this place transforms: flags on every wall, screaming on every goal, and an energy that can't be manufactured. This is where LA's Korean community has watched football for decades, and it's the loudest room in the city when the Taeguk Warriors score.",
+    "teams": ["South Korea", "Japan", "USA"],
+    "vibe": "electric",
+    "vibeRating": 4.8,
+    "capacity": 120,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Korean"
+    },
+    "promoted": false,
+    "phone": "(213) 487-1865",
+    "hours": "Daily 5pm–4am",
+    "screens": 6
+  },
+  {
+    "id": "76",
+    "slug": "the-prince",
+    "name": "The Prince",
+    "address": "3198 W 7th St, Los Angeles, CA 90005",
+    "neighbourhood": "Koreatown",
+    "about": "One of LA’s most storied bars, The Prince has been a Hollywood haunt since 1949 and appeared in Mad Men, New Girl, and countless films. Dark wood panelling, red leather booths, and cocktails that don't mess around. Tucked into the heart of Koreatown, it draws a fascinating mix of cinephiles, Korean-Americans, and anyone who appreciates an institution. For World Cup matches, it’s an unlikely gem — close to the Korean community, reliably packed, and with an atmosphere that money can’t buy.",
+    "teams": ["South Korea", "USA", "England"],
+    "vibe": "local",
+    "vibeRating": 4.4,
+    "capacity": 80,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(213) 389-1586",
+    "hours": "Daily 4pm–2am",
+    "screens": 4
+  },
+  {
+    "id": "77",
+    "slug": "musha-santa-monica",
+    "name": "Musha",
+    "address": "2424 Main St, Santa Monica, CA 90405",
+    "neighbourhood": "Santa Monica",
+    "about": "Santa Monica’s beloved Japanese izakaya has been a Westside institution since 1997. Musha draws LA’s Japanese community to its corner of Main Street for yakitori, cold Sapporo, and late-night camaraderie that feels transplanted from Tokyo. When the Samurai Blue play, Musha becomes the go-to for Japanese fans on the Westside — Japanese commentary on the screens, the right food on the table, and a crowd who knows every player’s number. One of the most genuinely atmospheric Japan matches in the city.",
+    "teams": ["Japan", "USA"],
+    "vibe": "local",
+    "vibeRating": 4.5,
+    "capacity": 60,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Japanese"
+    },
+    "promoted": false,
+    "phone": "(310) 396-4804",
+    "hours": "Mon–Fri 5:30pm–12am · Sat–Sun 5pm–12am",
+    "screens": 3
+  },
+  {
+    "id": "78",
+    "slug": "yakitoriya",
+    "name": "Yakitoriya",
+    "address": "11301 Olympic Blvd, Los Angeles, CA 90064",
+    "neighbourhood": "Sawtelle",
+    "about": "In the heart of Sawtelle Japantown — LA’s Little Osaka — Yakitoriya is where serious Japanese football fans gather. The authentic yakitori bar has been screening Japan matches for years, drawing Japanese expats and Japanese-Americans who want their football with sake and skewers rather than nachos and bud light. Small, intimate, and passionately Japanese. For Samurai Blue matches, book ahead or arrive early — this place fills up fast and the energy is worth every minute.",
+    "teams": ["Japan", "USA"],
+    "vibe": "local",
+    "vibeRating": 4.6,
+    "capacity": 45,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "Japanese"
+    },
+    "promoted": false,
+    "phone": "(310) 479-5400",
+    "hours": "Tue–Sun 6pm–11pm",
+    "screens": 2
+  },
+  {
+    "id": "79",
+    "slug": "yard-house-pasadena",
+    "name": "Yard House",
+    "address": "330 E Colorado Blvd, Pasadena, CA 91101",
+    "neighbourhood": "Pasadena",
+    "about": "Less than 10 miles from the Rose Bowl, Yard House Pasadena is one of the most important watch venues in this guide. With 35 screens covering every wall and a 130-beer draft list, it was built for exactly this kind of tournament. Capacity for 300+ fans, sight lines from every seat, and the kind of professional setup that handles a packed World Cup crowd without missing a beat. For USA matches especially, this will be at full capacity — book a table or arrive well before kickoff.",
+    "teams": ["USA", "England", "Germany", "Netherlands", "Mexico"],
+    "vibe": "electric",
+    "vibeRating": 4.3,
+    "capacity": 300,
+    "features": {
+      "outdoorScreen": false,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(626) 577-9273",
+    "website": "https://www.yardhouse.com",
+    "hours": "Mon–Thu 11am–12am · Fri 11am–1am · Sat 10am–1am · Sun 10am–12am",
+    "screens": 35
+  },
+  {
+    "id": "80",
+    "slug": "najas-place",
+    "name": "Naja's Place",
+    "address": "154 International Boardwalk, Redondo Beach, CA 90277",
+    "neighbourhood": "Redondo Beach",
+    "about": "A South Bay institution that has been showing World Cups since 1982. Naja's Place sits on the Redondo Beach Pier with 90+ beers on tap, 10 screens, and a loyal football crowd that drives in from Manhattan Beach, Torrance, and Hawthorne for the big matches. England fans, USA supporters, and football purists who want atmosphere without the Hollywood circus come here. There’s an outdoor section facing the water that makes late-night celebrations particularly spectacular. One of LA’s most authentic football pubs, and criminally underrated.",
+    "teams": ["USA", "England", "Ireland", "Germany"],
+    "vibe": "local",
+    "vibeRating": 4.6,
+    "capacity": 100,
+    "features": {
+      "outdoorScreen": true,
+      "commentaryLanguage": "English"
+    },
+    "promoted": false,
+    "phone": "(310) 376-9951",
+    "hours": "Mon–Fri noon–2am · Sat–Sun 10am–2am",
+    "screens": 10
   }
 ]

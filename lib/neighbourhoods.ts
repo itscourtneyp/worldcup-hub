@@ -20,6 +20,8 @@ export const NEIGHBOURHOODS: Neighbourhood[] = [
   'Burbank',
   'East LA',
   'El Segundo',
+  'Sawtelle',
+  'Redondo Beach',
 ]
 
 export const NEIGHBOURHOOD_COPY: Record<
@@ -151,6 +153,20 @@ export const NEIGHBOURHOOD_COPY: Record<
       'A small beach city with a dedicated German football community at Das Bootshaus — the only proper German bar on the Westside.',
     about:
       "El Segundo is a sleeper pick for World Cup watching. Das Bootshaus is the only proper German bar on the Westside — pulling in the German-American community from Culver City to Manhattan Beach when Die Mannschaft play. German commentary, proper German beer, and a tight-knit community that makes every match feel like an event. Small venue, big atmosphere.",
+  },
+  Sawtelle: {
+    headline: 'World Cup Bars in Sawtelle (Little Osaka), Los Angeles',
+    subhead:
+      'Sawtelle Japantown is the heartbeat of Japanese football culture in LA — where the Samurai Blue have their most passionate supporters.',
+    about:
+      "Sawtelle Blvd — known as Little Osaka — is LA's most authentically Japanese neighbourhood. When Japan play at the World Cup, the izakayas and bars along Sawtelle fill with Japanese expats and Japanese-Americans who've followed the Samurai Blue for years. Yakitoriya is the anchor: yakitori skewers, cold Sapporo, Japanese commentary, and a crowd that knows every player's name. This is where the real Japanese football community gathers.",
+  },
+  'Redondo Beach': {
+    headline: 'World Cup Bars in Redondo Beach, Los Angeles',
+    subhead:
+      'South Bay football on the waterfront — Naja\'s Place is one of LA\'s most legendary bars for World Cup watching.',
+    about:
+      "Redondo Beach is the South Bay's sleeper hit for World Cup 2026. Naja's Place on the Redondo Beach Pier is a genuine institution — 90+ beers on tap, a waterfront setting, and a loyal crowd that has opened its doors for every World Cup since 1982. England fans, USA supporters, and football purists from Manhattan Beach to Torrance make the pilgrimage here. If you want proper atmosphere without the Hollywood crowds, Redondo Beach delivers.",
   },
 }
 

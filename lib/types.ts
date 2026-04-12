@@ -17,6 +17,8 @@ export type Neighbourhood =
   | 'Burbank'
   | 'East LA'
   | 'El Segundo'
+  | 'Sawtelle'
+  | 'Redondo Beach'
 
 export type Vibe = 'rowdy' | 'electric' | 'chill' | 'local'
 
